@@ -13,6 +13,7 @@ This repository publishes Matthew Chenoweth Wright's **EFMW-COSMO-C1Q v1.0.0**, 
 - [Prediction figure](results/predictions.png)
 - [Primary sources](SOURCES.md)
 - [Publication verification record](publication/verification-2026-10-23.json)
+- [HORIZON standalone universe-recursion observatory](index.html) — download the single HTML file and open it locally; [controls, numerical method and evidence boundaries](webapp/README.md). This interface is an addition outside the original freeze.
 
 The model is GR plus a minimally coupled canonical scalar with a quadratic potential, baryons, photons, cold dark matter and three thermal neutrino species. The supplied integration covers a=10^-8 to 1 and includes linear perturbation predictions. Its reference parameters are fixed assumptions, and its scalar amplitude is fixed by the flatness boundary condition. No observational likelihood or posterior fit is included. The physical class is established quadratic quintessence; the publication is an executable model instance, not evidence of a new physical law.
 
