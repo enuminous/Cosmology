@@ -1,0 +1,29 @@
+Reading input parameters
+ -> matched budget equations by adjusting Omega_Lambda = 0.684546
+Running CLASS version v3.4.1
+Computing background
+ -> non-cold dark matter species with i=1 has m_i = 8.600000e-03 eV (so m_i / omega_i =9.281326e+01 eV)
+ -> ncdm species i=1 sampled with 11 (resp. 11) points for purpose of background (resp. perturbation) integration. In the relativistic limit it gives Delta N_eff = 1.01466
+ -> non-cold dark matter species with i=2 has m_i = 5.000000e-02 eV (so m_i / omega_i =9.303561e+01 eV)
+ -> ncdm species i=2 sampled with 11 (resp. 11) points for purpose of background (resp. perturbation) integration. In the relativistic limit it gives Delta N_eff = 1.01466
+ -> age = 13.787051 Gyr
+ -> conformal age = 14142.749549 Mpc
+ -> N_eff = 3.04399 (summed over all species that are non-relativistic at early times) 
+ -> radiation/matter equality at z = 3410.179769
+    corresponding to conformal time = 112.579618 Mpc
+Computing thermodynamics using HyRec 2020
+ -> with primordial helium mass fraction Y_He = 0.2450
+ -> recombination (maximum of visibility function) at z = 1088.923095
+    corresponding to conformal time = 280.536134 Mpc
+    with comoving sound horizon = 144.531362 Mpc
+    angular diameter distance = 12.718524 Mpc
+    sound horizon angle 100*theta_s = 1.042628
+    Thomson optical depth crosses one at z_* = 1085.313576
+    giving an angle 100*theta_* = 1.044955
+ -> baryon drag stops at z = 1059.655479
+    corresponding to conformal time = 286.281260 Mpc
+    with comoving sound horizon rs = 147.131069 Mpc
+ -> reionization with optical depth = 0.054203
+    corresponding to conformal time = 5109.652627 Mpc
+Computing sources (optimal Boltzmann hierarchy)
+Writing output files in output/lcdm_00_... 

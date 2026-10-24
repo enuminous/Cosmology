@@ -1,0 +1,22 @@
+{
+  "publication_date_pacific": "2026-10-23",
+  "repository": "enuminous/Cosmology",
+  "model_id": "EFMW-COSMO-C1Q",
+  "model_version": "1.0.0",
+  "model_freeze_date_pacific": "2026-10-16",
+  "original_archive": {
+    "name": "EFMW-Cosmology-C1Q-v1.0.0.zip",
+    "bytes": 22231006,
+    "sha256": "515ebaa0eb07244aa34bd1a224ae190a6d889b44ee9408ba5ad6ad5c6ce07a5f",
+    "extracted_file_count": 92,
+    "manifest_sha256": "4f45e78bb64b8683be1bab7dfd4a57a6c512500721b63ae36be44d1ea56f65b6",
+    "freeze_sha256": "498a7451cd53aeec70a8695d958cfc24c259d3324d7989815a662a4025d842e9"
+  },
+  "status": "Frozen hypothesis and reproducible numerical package; no observational fit or experimental validation",
+  "source_archive_modified": false,
+  "source_files_modified": false,
+  "external_CLASS_source_bundled": false,
+  "full_CLASS_rebuild_in_publication_run": false,
+  "new_CMB_prediction_seed_consumed": false,
+  "new_Lean_theorem_claimed": false
+}

@@ -1,0 +1,11 @@
+{
+  "repository": "https://github.com/lesgourg/class_public",
+  "commit": "814ce59c380a5cccd0bed1747a384ff7bfc1f9cf",
+  "background_blob_sha": "87d60c619bb97c641f0f5cc9be0e37810f01beab",
+  "version": "3.4.1",
+  "recombination": "HyRec2020",
+  "notes": "Adapter changes V_scf, dV_scf, ddV_scf and refreshes explicit scalar initial conditions after shooting overrides in input.c. Standard matter and perturbation equations are unmodified. Third-party source is not bundled.",
+  "input_blob_sha": "d01e76191bb3289b0f782b6cbb1d0b30721c37df",
+  "required_gauge": "synchronous",
+  "gauge_limitation": "Do not use Newtonian gauge with the pinned upstream scalar-field evolution: missing lapse-source terms. See docs/AUDIT.md."
+}

@@ -1,0 +1,29 @@
+{
+  "background_method": "DOP853",
+  "rtol": 2e-10,
+  "atol": 2e-12,
+  "max_step_log_a": 0.05,
+  "fd_quadrature_nodes": 128,
+  "fd_q_max": 50.0,
+  "thermal_table_points": 2401,
+  "root_xtol": 1e-11,
+  "report_grid_points": 1001,
+  "physical_constants": {
+    "c_m_s": 299792458.0,
+    "G_m3_kg_s2": 6.67430e-11,
+    "hbar_J_s": 1.054571817e-34,
+    "kB_J_K": 1.380649e-23,
+    "eV_J": 1.602176634e-19,
+    "Mpc_m": 3.085677581491367e22,
+    "julian_year_s": 31557600.0
+  },
+  "validation": {
+    "flatness_abs": 1e-9,
+    "scalar_energy_continuity_rel": 1e-8,
+    "neutrino_continuity_rel": 2e-6,
+    "raychaudhuri_independent_rel": 2e-7,
+    "resolution_observable_rel": 2e-6,
+    "radiation_fraction_at_initial_min": 0.999,
+    "scalar_w_bound_abs": 1e-10
+  }
+}

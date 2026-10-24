@@ -1,0 +1,43 @@
+Reading input parameters
+Computing unknown input parameter 'scf_shooting_parameter' using input parameter 'Omega_scf'
+ -> matched budget equations by adjusting Omega_scf = 0.684546
+ -> matched budget equations by adjusting Omega_scf = 0.684546
+Not using attractor initial conditions
+ -> matched budget equations by adjusting Omega_scf = 0.684546
+Not using attractor initial conditions
+ -> matched budget equations by adjusting Omega_scf = 0.684546
+Not using attractor initial conditions
+ -> matched budget equations by adjusting Omega_scf = 0.684546
+Not using attractor initial conditions
+ -> matched budget equations by adjusting Omega_scf = 0.684546
+Not using attractor initial conditions
+ -> found 'scf_shooting_parameter = 2.24004071342091259922e+00'
+ -> matched budget equations by adjusting Omega_scf = 0.684546
+Running CLASS version v3.4.1
+Computing background
+ -> non-cold dark matter species with i=1 has m_i = 8.600000e-03 eV (so m_i / omega_i =9.281326e+01 eV)
+ -> ncdm species i=1 sampled with 11 (resp. 5) points for purpose of background (resp. perturbation) integration. In the relativistic limit it gives Delta N_eff = 1.01466
+ -> non-cold dark matter species with i=2 has m_i = 5.000000e-02 eV (so m_i / omega_i =9.303561e+01 eV)
+ -> ncdm species i=2 sampled with 11 (resp. 5) points for purpose of background (resp. perturbation) integration. In the relativistic limit it gives Delta N_eff = 1.01466
+Not using attractor initial conditions
+ -> age = 13.595158 Gyr
+ -> conformal age = 14041.093496 Mpc
+ -> N_eff = 3.04399 (summed over all species that are non-relativistic at early times) 
+ -> radiation/matter equality at z = 3410.179769
+    corresponding to conformal time = 112.579618 Mpc
+Computing thermodynamics using HyRec 2020
+ -> with primordial helium mass fraction Y_He = 0.2450
+ -> recombination (maximum of visibility function) at z = 1088.923110
+    corresponding to conformal time = 280.536131 Mpc
+    with comoving sound horizon = 144.531361 Mpc
+    angular diameter distance = 12.625255 Mpc
+    sound horizon angle 100*theta_s = 1.050331
+    Thomson optical depth crosses one at z_* = 1085.332597
+    giving an angle 100*theta_* = 1.052662
+ -> baryon drag stops at z = 1059.655584
+    corresponding to conformal time = 286.281238 Mpc
+    with comoving sound horizon rs = 147.131060 Mpc
+ -> reionization with optical depth = 0.053992
+    corresponding to conformal time = 5109.374729 Mpc
+Computing sources (optimal Boltzmann hierarchy)
+Writing output files in output/c1q_00_... 

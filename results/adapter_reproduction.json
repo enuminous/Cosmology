@@ -1,0 +1,10 @@
+{
+  "background.c": {
+    "matches_executed_source": true,
+    "sha256": "18b16c34292ee2cbe71b1e8f7bbd97ae58f94c4efeacc623455ec303734ca094"
+  },
+  "input.c": {
+    "matches_executed_source": true,
+    "sha256": "768cf8953679fabc543bee6b4af87af9b70833b00dcdd504cd2621799bd78841"
+  }
+}

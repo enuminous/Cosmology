@@ -1,0 +1,54 @@
+{
+  "status": "synthetic model predictions and numerical diagnostics; no data likelihood",
+  "background_crosscheck": {
+    "max_H_relative_z_0_to_100": 1.4230145728433286e-08,
+    "max_w_absolute_z_0_to_10": 1.7939205676498204e-10,
+    "limit_each": 0.0002,
+    "passed": true
+  },
+  "finite_required_tables": true,
+  "unused_input_parameters": {
+    "c1q": [],
+    "lcdm": [],
+    "c1q_sync": [],
+    "c1q_precision": []
+  },
+  "precision_and_gauge_diagnostics": {
+    "c1q_sync": {
+      "lensed_TT_max_relative": 0.014330054817025983,
+      "lensed_EE_max_relative": 0.0005615709571440419,
+      "lensed_TE_max_abs_over_sqrt_TT_EE": 0.006709537792688706,
+      "lensed_BB_max_relative": 0.0013420034473352604,
+      "lensing_phiphi_max_relative": 0.0021824897570500434,
+      "matter_Pk_max_relative_0p01_to_0p2_h_Mpc": 0.0013983755037860757
+    },
+    "c1q_precision": {
+      "lensed_TT_max_relative": 0.0011156940486947153,
+      "lensed_EE_max_relative": 0.00424460460282039,
+      "lensed_TE_max_abs_over_sqrt_TT_EE": 0.001470698912600007,
+      "lensed_BB_max_relative": 0.01360407159478949,
+      "lensing_phiphi_max_relative": 0.0007178609291604854,
+      "matter_Pk_max_relative_0p01_to_0p2_h_Mpc": 6.371970688867634e-06
+    }
+  },
+  "diagnostic_scope": "CMB l=2..1200; linear matter k=0.01..0.2 h/Mpc, z=0. Gauge agreement and one tighter run do not certify all possible likelihoods.",
+  "thermal_outputs": {
+    "c1q": {
+      "age_Gyr": 13.595158,
+      "r_drag_Mpc": 147.13106,
+      "100_theta_s_at_visibility_max": 1.050331,
+      "tau_reionization": 0.053992
+    },
+    "lcdm": {
+      "age_Gyr": 13.787051,
+      "r_drag_Mpc": 147.131069,
+      "100_theta_s_at_visibility_max": 1.042628,
+      "tau_reionization": 0.054203
+    }
+  },
+  "C1Q_vs_matched_LCDM": {
+    "matter_power_ratio_at_k_0p1_h_Mpc_z0": 0.9613605218423584,
+    "100_theta_s_relative_shift": 0.007388061705613014
+  },
+  "constant_conventions": "Python uses the explicit SI constants in numerics.json. CLASS uses its pinned constants, thermal quadrature and streaming approximations. Neither was retuned to force agreement."
+}

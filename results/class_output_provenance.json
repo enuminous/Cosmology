@@ -1,0 +1,245 @@
+{
+  "compression": "gzip for files over 500000 bytes, lossless; original SHA256 recorded",
+  "selection": "All reference C1Q and LambdaCDM outputs; tighter diagnostic retains lensed spectra, z=0 P(k), input and unused-parameter records.",
+  "files": [
+    {
+      "original_name": "c1q_00_background.dat",
+      "saved_name": "c1q_00_background.dat.gz",
+      "original_bytes": 32081290,
+      "original_sha256": "6c098d7525a57f52e1294340f6c12cf0aa173f4cba44047cbac8ef00c41ad1d3"
+    },
+    {
+      "original_name": "c1q_00_cl.dat",
+      "saved_name": "c1q_00_cl.dat",
+      "original_bytes": 290979,
+      "original_sha256": "149da1cf8e291e1599b528c3403d34594ad3fe87ba5e7bce62a5b1ee0d3ba2ae"
+    },
+    {
+      "original_name": "c1q_00_cl_lensed.dat",
+      "saved_name": "c1q_00_cl_lensed.dat",
+      "original_bytes": 218914,
+      "original_sha256": "0180b0f437efea0cadf442ce86c6d9ac776baa2b9200ac72733f88bd2ed2879b"
+    },
+    {
+      "original_name": "c1q_00_parameters.ini",
+      "saved_name": "c1q_00_parameters.ini",
+      "original_bytes": 1487,
+      "original_sha256": "59d364b732318e55f96c061cffbba5d28e39b0dc52ea53f920eb40e3318b3bd7"
+    },
+    {
+      "original_name": "c1q_00_perturbations_k0_s.dat",
+      "saved_name": "c1q_00_perturbations_k0_s.dat.gz",
+      "original_bytes": 1360156,
+      "original_sha256": "25e8c2cc4b27b656b6d83ce87aacf2d49d3f3f9678c2ce3fc2523442983e364f"
+    },
+    {
+      "original_name": "c1q_00_primordial_Pk.dat",
+      "saved_name": "c1q_00_primordial_Pk.dat",
+      "original_bytes": 2976,
+      "original_sha256": "cd31bbe6a803f3249aed17d1eee469f02682ac9ccb2dbaf522609c872d13868f"
+    },
+    {
+      "original_name": "c1q_00_thermodynamics.dat",
+      "saved_name": "c1q_00_thermodynamics.dat.gz",
+      "original_bytes": 8557352,
+      "original_sha256": "de99292c5d3434937db271e81a284274a6af731b4a239064a05640c96943b2f3"
+    },
+    {
+      "original_name": "c1q_00_unused_parameters",
+      "saved_name": "c1q_00_unused_parameters",
+      "original_bytes": 77,
+      "original_sha256": "84563827efb9896153a5736fb85b5694eeada3cce3bb15ccc411dd1c5f187e47"
+    },
+    {
+      "original_name": "c1q_00_z1_pk.dat",
+      "saved_name": "c1q_00_z1_pk.dat",
+      "original_bytes": 26483,
+      "original_sha256": "cbb2a83f1a59c2e57e452d36498c0574f66621794c181fa81ca8577244ca0c7f"
+    },
+    {
+      "original_name": "c1q_00_z1_pk_cb.dat",
+      "saved_name": "c1q_00_z1_pk_cb.dat",
+      "original_bytes": 26483,
+      "original_sha256": "237a28e33bd0811ed3b1f862e4c5064058e44250596bea566d2149a4486215b7"
+    },
+    {
+      "original_name": "c1q_00_z1_tk.dat",
+      "saved_name": "c1q_00_z1_tk.dat",
+      "original_bytes": 153631,
+      "original_sha256": "4d04c5766076d67b85895ef17724c65f54355ebffe6407aae535df8dc8ff7318"
+    },
+    {
+      "original_name": "c1q_00_z2_pk.dat",
+      "saved_name": "c1q_00_z2_pk.dat",
+      "original_bytes": 26483,
+      "original_sha256": "f35889dffe6b121bc7d319c9bbef2c554911fcc453cc8f28f9401a5a805ad5ca"
+    },
+    {
+      "original_name": "c1q_00_z2_pk_cb.dat",
+      "saved_name": "c1q_00_z2_pk_cb.dat",
+      "original_bytes": 26483,
+      "original_sha256": "52e5afd50d5275319020da495d93950a99b22d8ca93b3ecaaf68205498a07902"
+    },
+    {
+      "original_name": "c1q_00_z2_tk.dat",
+      "saved_name": "c1q_00_z2_tk.dat",
+      "original_bytes": 153631,
+      "original_sha256": "3f3c9ad89a522d19a206167a5fb7f44b6946a92d076175c7aae10677ca443b06"
+    },
+    {
+      "original_name": "c1q_00_z3_pk.dat",
+      "saved_name": "c1q_00_z3_pk.dat",
+      "original_bytes": 26483,
+      "original_sha256": "a950ca206dc7076e1910bf59037086d8e67b2e490d0fe571343ea2d7810b0044"
+    },
+    {
+      "original_name": "c1q_00_z3_pk_cb.dat",
+      "saved_name": "c1q_00_z3_pk_cb.dat",
+      "original_bytes": 26483,
+      "original_sha256": "50f6988a7181e6a3eb3493b3660e6bc2aec2c71967d6a2132dba6fdddde381a3"
+    },
+    {
+      "original_name": "c1q_00_z3_tk.dat",
+      "saved_name": "c1q_00_z3_tk.dat",
+      "original_bytes": 153631,
+      "original_sha256": "22c43e98ccd5c9d137a1de4603937f06c5050f42adcf15c8fafdb1905529e179"
+    },
+    {
+      "original_name": "lcdm_00_background.dat",
+      "saved_name": "lcdm_00_background.dat.gz",
+      "original_bytes": 25080829,
+      "original_sha256": "db027d75453a2d59eed4807c8ecf2930a7997639696eac2aae4cb5579aa18c28"
+    },
+    {
+      "original_name": "lcdm_00_cl.dat",
+      "saved_name": "lcdm_00_cl.dat",
+      "original_bytes": 290979,
+      "original_sha256": "ea77504c6b96368f17eae145917ee119e8981291243bd3b2fa8e948590eb61b8"
+    },
+    {
+      "original_name": "lcdm_00_cl_lensed.dat",
+      "saved_name": "lcdm_00_cl_lensed.dat",
+      "original_bytes": 218914,
+      "original_sha256": "31a67ee6b3a1a4288832e656d6d633d176e176b9ca5110175445a00f444b2e3f"
+    },
+    {
+      "original_name": "lcdm_00_parameters.ini",
+      "saved_name": "lcdm_00_parameters.ini",
+      "original_bytes": 1324,
+      "original_sha256": "8b2dc10d15219c90fd1025a5db22f036b616e834586a63195af7833f3eb9692b"
+    },
+    {
+      "original_name": "lcdm_00_perturbations_k0_s.dat",
+      "saved_name": "lcdm_00_perturbations_k0_s.dat.gz",
+      "original_bytes": 1253436,
+      "original_sha256": "f8c57c48d89fae32296cafcf06b8c86272531dd2176c65ef0d40971b796c13d1"
+    },
+    {
+      "original_name": "lcdm_00_primordial_Pk.dat",
+      "saved_name": "lcdm_00_primordial_Pk.dat",
+      "original_bytes": 2976,
+      "original_sha256": "ab3cd6dac4581fb7ba2b84724461053706c7642a47cce146ca7c0cb1bbd0f406"
+    },
+    {
+      "original_name": "lcdm_00_thermodynamics.dat",
+      "saved_name": "lcdm_00_thermodynamics.dat.gz",
+      "original_bytes": 8557352,
+      "original_sha256": "9cd025f50045625e32f3ebc8487ff7a092fd7a5bab4a2881e0ae79ebc2d09033"
+    },
+    {
+      "original_name": "lcdm_00_unused_parameters",
+      "saved_name": "lcdm_00_unused_parameters",
+      "original_bytes": 77,
+      "original_sha256": "84563827efb9896153a5736fb85b5694eeada3cce3bb15ccc411dd1c5f187e47"
+    },
+    {
+      "original_name": "lcdm_00_z1_pk.dat",
+      "saved_name": "lcdm_00_z1_pk.dat",
+      "original_bytes": 26484,
+      "original_sha256": "0ee2b74c6497ec216ab3264b8464f01ffd7097418b94222786f841fd8ac042ad"
+    },
+    {
+      "original_name": "lcdm_00_z1_pk_cb.dat",
+      "saved_name": "lcdm_00_z1_pk_cb.dat",
+      "original_bytes": 26484,
+      "original_sha256": "d4299e75c09085406accb7e850551d2102aedfa5df8ea440d5905f51fec1e442"
+    },
+    {
+      "original_name": "lcdm_00_z1_tk.dat",
+      "saved_name": "lcdm_00_z1_tk.dat",
+      "original_bytes": 140957,
+      "original_sha256": "ab90276cb71fe3e29fe2164f80a305137cd502d9ccf76c74b9ba6e4089fc727a"
+    },
+    {
+      "original_name": "lcdm_00_z2_pk.dat",
+      "saved_name": "lcdm_00_z2_pk.dat",
+      "original_bytes": 26484,
+      "original_sha256": "606eb9e933ab2eb33a84a9b94ac5aab9ff676549ce2e6591bbd5c420dae35e24"
+    },
+    {
+      "original_name": "lcdm_00_z2_pk_cb.dat",
+      "saved_name": "lcdm_00_z2_pk_cb.dat",
+      "original_bytes": 26484,
+      "original_sha256": "99c1f0c4b9135073e87ca2f3edceff2cf8fe559ff2767b4d711190e3e872c094"
+    },
+    {
+      "original_name": "lcdm_00_z2_tk.dat",
+      "saved_name": "lcdm_00_z2_tk.dat",
+      "original_bytes": 140957,
+      "original_sha256": "8078d608a6d1569915a04d263661d37a8d907205122d2adcc4871d0491ae9cd7"
+    },
+    {
+      "original_name": "lcdm_00_z3_pk.dat",
+      "saved_name": "lcdm_00_z3_pk.dat",
+      "original_bytes": 26484,
+      "original_sha256": "b769db931f08e95c4484c0b93627de47dd192bf64fdbdb948b780ddd51c29505"
+    },
+    {
+      "original_name": "lcdm_00_z3_pk_cb.dat",
+      "saved_name": "lcdm_00_z3_pk_cb.dat",
+      "original_bytes": 26484,
+      "original_sha256": "044ce9d31cdca7f8f092266efc37228de4b8a6db2593c1c5502a9c879e0813a1"
+    },
+    {
+      "original_name": "lcdm_00_z3_tk.dat",
+      "saved_name": "lcdm_00_z3_tk.dat",
+      "original_bytes": 140957,
+      "original_sha256": "fff7f48ecaa9d13541216b10a73fceb6bc633f8ccf6f02cae4a24c3765257c14"
+    },
+    {
+      "original_name": "c1q_precision_00_cl_lensed.dat",
+      "saved_name": "c1q_precision_00_cl_lensed.dat",
+      "original_bytes": 218914,
+      "original_sha256": "a652543b317bdd45fb8636a6a255c87169ab8eeb36042c5d699a6409072eb7f0"
+    },
+    {
+      "original_name": "c1q_precision_00_parameters.ini",
+      "saved_name": "c1q_precision_00_parameters.ini",
+      "original_bytes": 1498,
+      "original_sha256": "b30de7de7751ac42146bbaa6cbca8681328a1c461119fbcb03a9adae51cb711e"
+    },
+    {
+      "original_name": "c1q_precision_00_unused_parameters",
+      "saved_name": "c1q_precision_00_unused_parameters",
+      "original_bytes": 77,
+      "original_sha256": "84563827efb9896153a5736fb85b5694eeada3cce3bb15ccc411dd1c5f187e47"
+    },
+    {
+      "original_name": "c1q_precision_00_z1_pk.dat",
+      "saved_name": "c1q_precision_00_z1_pk.dat",
+      "original_bytes": 27680,
+      "original_sha256": "565a950a53f242206c16878602320fdaccffa37b252fec6a7913222f68440a96"
+    }
+  ],
+  "finite_required_background_thermal_and_spectral_tables": true,
+  "optional_trace_nonfinite_entries": [
+    {
+      "file": "c1q_00_perturbations_k0_s.dat",
+      "count": 82,
+      "columns_1_based": [
+        27
+      ]
+    }
+  ],
+  "optional_trace_caveat": "The optional early-time scalar fluid velocity theta_scf divides by rho_scf+p_scf, which rounds to zero for a frozen field. Infinite diagnostic entries are preserved and must not be used as physical predictions. The evolved variable is delta_phi, not this fluid velocity; see AUDIT.md."
+}

@@ -1,0 +1,46 @@
+{
+  "status": "synthetic model predictions and numerical diagnostics; no data likelihood",
+  "background_crosscheck": {
+    "max_H_relative_z_0_to_100": 1.4230145728433286e-08,
+    "max_w_absolute_z_0_to_10": 1.7070500568650004e-10,
+    "limit_each": 0.0002,
+    "passed": true
+  },
+  "unused_input_parameters": {
+    "c1q": [],
+    "lcdm": [],
+    "c1q_precision": []
+  },
+  "precision_diagnostics": {
+    "c1q_precision": {
+      "lensed_TT_max_relative": 0.0013756615741610245,
+      "lensed_EE_max_relative": 0.0023541483892390858,
+      "lensed_TE_max_abs_over_sqrt_TT_EE": 0.0013546061820202122,
+      "lensed_BB_max_relative": 0.005604111471546824,
+      "lensing_phiphi_max_relative": 0.00018286128566047388,
+      "matter_Pk_max_relative_0p01_to_0p2_h_Mpc": 1.847668710253103e-07
+    }
+  },
+  "diagnostic_scope": "Synchronous gauge. CMB l=2..1200; linear matter k=0.01..0.2 h/Mpc, z=0. One tighter run does not certify all possible likelihoods.",
+  "gauge_audit": "Earlier Newtonian scalar-field run rejected because the pinned scalar KG implementation omits required Newtonian lapse sources. Details and measured discrepancy preserved in results/rejected_newtonian and docs/AUDIT.md. No successful independent-gauge validation is claimed.",
+  "thermal_outputs": {
+    "c1q": {
+      "age_Gyr": 13.595158,
+      "r_drag_Mpc": 147.13106,
+      "100_theta_s_at_visibility_max": 1.050331,
+      "tau_reionization": 0.053992
+    },
+    "lcdm": {
+      "age_Gyr": 13.787051,
+      "r_drag_Mpc": 147.131069,
+      "100_theta_s_at_visibility_max": 1.042628,
+      "tau_reionization": 0.054203
+    }
+  },
+  "C1Q_vs_matched_LCDM": {
+    "matter_power_ratio_at_k_0p1_h_Mpc_z0": 0.9613619603712832,
+    "100_theta_s_relative_shift": 0.007388061705613014
+  },
+  "constant_conventions": "Python uses the explicit SI constants in numerics.json. CLASS uses its pinned constants, thermal quadrature and streaming approximations. Neither was retuned to force agreement.",
+  "finite_compared_tables": true
+}

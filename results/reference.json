@@ -1,0 +1,88 @@
+{
+  "model_id": "EFMW-COSMO-C1Q",
+  "version": "1.0.0",
+  "status": "synthetic fiducial prediction; no observational likelihood evaluated",
+  "x_initial": 2.24004071597258,
+  "x_today": 1.9529746739763294,
+  "y_today": -0.541448006675701,
+  "mu": 1.0,
+  "m_eV": 1.437722662192951e-33,
+  "Omega_gamma0": 5.44377280168841e-05,
+  "Omega_nu0": 0.0013995587509758433,
+  "Omega_cb0": 0.314,
+  "Omega_phi0": 0.6845460035210071,
+  "E_today": 0.9999999999999997,
+  "w_phi_today": -0.8572455601108023,
+  "wa_local": -0.2344254649128569,
+  "wa_note": "local slope -dw/dln(a) at a=1, not a fitted CPL model",
+  "q_today": -0.3802019546007469,
+  "age_since_ai_Gyr": 13.59515803222393,
+  "age_with_radiation_tail_Gyr": 13.595158032224004,
+  "acceleration_transition_redshifts": [
+    0.6640065351720168
+  ],
+  "root_scan": {
+    "range": [
+      0,
+      1000
+    ],
+    "grid_points": 38,
+    "sign_change_brackets": [
+      [
+        1.8957356524063753,
+        2.9663488391777313
+      ]
+    ],
+    "roots_found": [
+      2.24004071597258
+    ],
+    "uniqueness_proved": false
+  },
+  "distances": [
+    {
+      "z": 0.1,
+      "H_km_s_Mpc": 71.67050039787698,
+      "DM_Mpc": 431.3754127956705,
+      "DL_Mpc": 474.5129540752376,
+      "w_phi": -0.8786198156157371,
+      "delta_H_percent": 1.184165221681499,
+      "delta_DM_percent": -0.6266092933368328
+    },
+    {
+      "z": 0.5,
+      "H_km_s_Mpc": 91.39991525744195,
+      "DM_Mpc": 1916.5644948503684,
+      "DL_Mpc": 2874.8467422755525,
+      "w_phi": -0.9343460472767192,
+      "delta_H_percent": 2.5301095774052484,
+      "delta_DM_percent": -1.7679799249535222
+    },
+    {
+      "z": 1.0,
+      "H_km_s_Mpc": 123.01260152932426,
+      "DM_Mpc": 3333.502639297028,
+      "DL_Mpc": 6667.005278594056,
+      "w_phi": -0.9669720429337739,
+      "delta_H_percent": 1.8880536072210186,
+      "delta_DM_percent": -1.9633546549072234
+    },
+    {
+      "z": 2.0,
+      "H_km_s_Mpc": 206.0713380183899,
+      "DM_Mpc": 5218.540897777363,
+      "DL_Mpc": 15655.62269333209,
+      "w_phi": -0.9890334297445044,
+      "delta_H_percent": 0.7703874971349833,
+      "delta_DM_percent": -1.7169336485727826
+    },
+    {
+      "z": 3.0,
+      "H_km_s_Mpc": 309.1209195709738,
+      "DM_Mpc": 6404.99451241282,
+      "DL_Mpc": 25619.97804965128,
+      "w_phi": -0.9952278135814032,
+      "delta_H_percent": 0.3530048726624102,
+      "delta_DM_percent": -1.5008524750830143
+    }
+  ]
+}
