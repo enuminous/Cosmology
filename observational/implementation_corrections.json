@@ -1,0 +1,42 @@
+[
+  {
+    "stage": "CLASS C build",
+    "issue": "One zero-byte hyperspherical object produced during parallel compilation; linker failed.",
+    "resolution": "Removed only that failed object; rebuilt with two jobs; source unchanged."
+  },
+  {
+    "stage": "Python wrapper build",
+    "issue": "Runtime compiler default clang++ unavailable.",
+    "resolution": "Set CC=gcc,CXX=g++ and built pinned CLASS wrapper successfully."
+  },
+  {
+    "stage": "first fiducial attempt",
+    "issue": "Background-only CLASS rejected unused perturbation-only modes/ic/gauge settings.",
+    "resolution": "Removed unused options only; preserved failed log; no likelihood evaluated in failed attempt."
+  },
+  {
+    "stage": "first surrogate training",
+    "issue": "Rectangular interpolation grid extends outside physical prior and hit CLASS radiation-fraction initialization threshold at a_i=1e-8.",
+    "resolution": "Retained initial surface and physical equations; use original numerical protocol radiation gate Omega_r>0.999. Actual physical prior points already pass the tighter CLASS default. Rebuild all training calculations; preserve first failure report."
+  },
+  {
+    "stage": "first and second surrogate training",
+    "issue": "CLASS default scalar-amplitude root bracket failed at low mu inside the physical prior; first training had 217 total failures, second training completed with 148 failures.",
+    "resolution": "Preserved both complete failure reports and rejected both surrogates. Patched only scalar shooting to use the documented positive-amplitude grid and first sign-changing bracket. Rebuilt CLASS. Low-mass cases now solve; immutable-point chi-square changed by 5.1e-11. New source hashes are in family_shooting_adapter.json."
+  },
+  {
+    "stage": "family wrapper rebuild",
+    "issue": "Stale wheel staging directory caused a packaging File exists error.",
+    "resolution": "Removed only the wheel staging directory and reran the same build successfully."
+  },
+  {
+    "stage": "Planck conditional diagnostic",
+    "issue": "Full NumPy likelihood finite-difference nuisance profiling required 7,876 calls for the first LCDM start.",
+    "resolution": "Validated the same Clipy likelihood in float64 JAX against five NumPy evaluations (max difference 2.55e-11) and central finite-difference gradients. Switched only derivatives/backend, preserving priors, objective, three starts and optimization limits. Preserved NumPy logs, including first converged LCDM objective 2784.790093630657; stopped redundant NumPy jobs after JAX validation. JAX first LCDM optimum 2784.7900212156474."
+  },
+  {
+    "stage": "first complete surrogate validation",
+    "issue": "Distance interpolation omitted exact h scaling; initial rd approximation omitted small late-parameter and reionization dependence. Max |delta chi2|=0.3602; reionization rd variation 4.7e-5.",
+    "resolution": "No family fit performed. Preserve rejected coefficients and validation. Factor h analytically; retain original z_reio prior as a common fitted parameter; build full thermodynamics correction tensors with tighter integration. See IMPLEMENTATION_REVISION_V2.md. Acceptance thresholds unchanged."
+  }
+]

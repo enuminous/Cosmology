@@ -1,0 +1,58 @@
+{
+  "settings": {
+    "initial_population": 60,
+    "de_maxiter": 80,
+    "de_tol": 1e-07,
+    "de_atol": 1e-07,
+    "local_starts": 3,
+    "max_objective_calls": 12000,
+    "local_maxfun": 2000,
+    "local_ftol": 1e-12,
+    "local_gtol": 1e-06,
+    "optimizer_seed": 20261028,
+    "mock_seed": 20261016,
+    "mock_count": 200,
+    "models": [
+      "lcdm",
+      "c1q"
+    ],
+    "nuisance": "same analytically profiled SN magnitude",
+    "flat_prior_parameters_integrated_out": [
+      "ln(10^10 As)",
+      "n_s"
+    ],
+    "reionization": "retained as common free parameter with original uniform [5,12] prior",
+    "nominal_extra_cosmological_parameters_C1Q": 1
+  },
+  "source_sha256": {
+    "likelihood.py": "347f8c6641e31965ece00a192dbed16dae09d624c90ed46b03cd16014127ddc4",
+    "class_model.py": "57830a1193240d3187b627b44aedd2f906e3c923ce51e1fc9ea1afea41c9ec5d",
+    "surrogate.py": "80d40645df8df801cfd63e52b9a8b61f4f8af8a827136e9d29d06620b50df421",
+    "build_surrogate.py": "8a6125728579cd9091ef6b10f83887b3c3d2464164b301fbb70b7d5814f258e5",
+    "build_rd_correction.py": "f3e349d4d2878279c1e1a8b3f26b51d8164d62f0910b846e825f6936afbe497a",
+    "validate_surrogate.py": "27a24c77a7e8ff4762fb936a38728abf4ba8fce843e9915889cccdd1dd4607ec",
+    "fit_stage1.py": "b640223db4721eaca2fdd072adc2288262d31e240bc71f4c405fbfdd2186219a",
+    "run_remaining.py": "8dbcdfd022b82fd50399a848e6f9c184d2cf32aec073f2ffc3b5feaddbf40771",
+    "posterior.py": "88e49312109abfef6c5f3d6ae06d979f3d4f75d6b4e80ef405b5724ef8d3489a",
+    "residual_audit.py": "f8d82032c220310cca282f6c22cc2f50db4dd9bec7cd84b606aa9753c201d3a5",
+    "verify_fit.py": "5689e076b49511beaaa9c5faa92274182a6823736a658e5611aa70d19b0740f0",
+    "patch_family_shooting.py": "8b5e2059bcd0a6701c088ded4d3e41a4efb21d53b6a6f10c22904431887da523",
+    "family_shooting_adapter.json": "aa841282d9a247d3b0e4a6896ad9c7494ff4acee7bc9c7be36558ca256ac932e",
+    "data_manifest.json": "b6353864ba5c1ad07896ce20a7469e387415e9c9a2ba2bfa82c6d1174208eddd",
+    "environment.json": "ee4e29ddc4f13e160e758b71a4e85ea39100bb3829844e42bc9492a5fed90f8d",
+    "family_crosscheck.json": "b7cb4606148254c0719960afa8f0cc4ff82929e3b79f86db8177610a24ed15ba",
+    "likelihood_independent_check.json": "1e79ca639c62c276bcf6405c6f18d22689bb35d87f2607dd7a0c640fe69095d9",
+    "surrogate/training.json": "0893b22372ddf1eee408bcca0e20bf3d0c6929d9d207e9c6510f58ba99a53941",
+    "surrogate/rd_training.json": "a43f054698fc32580e7df07df1f59556e09343daa9d2fefcf77368648dabf8a4",
+    "EXECUTION_PLAN.md": "0a32ba97cd575e09f325ac793b41383e76c20835946ae406842b8fa09356b3d3",
+    "IMPLEMENTATION_REVISION_V2.md": "199517c86459bed3a4c2ecc7c9649e65b30dfa75ce327710d54de41e3589352d",
+    "surrogate/rd_correction_lcdm.npz": "2ca9ef923445fe03e6be74df7d74c572e020305ddd9f139be70642322f0836f6",
+    "surrogate/rd_correction_c1q.npz": "810998ec3a4803307ba14c6d85d577f7d1e61c7c65be7cacb00522340201b175",
+    "surrogate/lcdm.npz": "5bff1c541d4e0d4cb976233d942bc339b20c628c5a22e416c374cd11eab7a8ce",
+    "surrogate/c1q.npz": "78e88310f847d9d4a8062df7c4353372d99b02038fe54d148f7fd6268b0945c5",
+    "surrogate/rd.npz": "9fba8d84e1e5968f654a952fbc3378d0286df854360c88567c385e82faa14a74",
+    "surrogate/validation.json": "b29c3745b2444ea865009ae2e2ffb6d7f928ccef4e752b6c648997ab49c6f325"
+  },
+  "utc": "2026-10-25T14:36:27Z",
+  "status": "frozen_before_family_fit"
+}

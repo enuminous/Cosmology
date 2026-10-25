@@ -1,0 +1,36 @@
+cd /workspace/scratch/2430b4425dc3/class-c1q/build;g++ --std=c++11 -fpermissive -Wno-write-strings -O3 -pthread  -g -fPIC -D__CLASSDIR__='"/workspace/scratch/2430b4425dc3/class-c1q"' -DHYREC -I../include -I../external/RecfastCLASS -I../external/heating -I../external/HyRec2020 -I../external/Halofit -I../external/HMcode -c ../tools/hyperspherical.c -o hyperspherical.opp
+g++ --std=c++11 -fpermissive -Wno-write-strings -O3 -pthread  -g -fPIC -o class build/growTable.o build/dei_rkck.o build/sparse.o build/evolver_rkck.o build/evolver_ndf15.o build/arrays.opp build/parser.o build/quadrature.o build/hyperspherical.opp build/common.o build/trigonometric_integrals.o build/input.o build/background.o build/thermodynamics.o build/perturbations.opp build/primordial.opp build/fourier.o build/transfer.opp build/harmonic.opp build/lensing.opp build/distortions.o build/wrap_recfast.o build/injection.o build/noninjection.o build/hyrectools.o build/helium.o build/hydrogen.o build/history.o build/wrap_hyrec.o build/energy_injection.o build/halofit.o build/hmcode.opp build/output.o build/class.o -lm
+ar rv  libclass.a build/growTable.o build/dei_rkck.o build/sparse.o build/evolver_rkck.o build/evolver_ndf15.o build/arrays.opp build/parser.o build/quadrature.o build/hyperspherical.opp build/common.o build/trigonometric_integrals.o build/input.o build/background.o build/thermodynamics.o build/perturbations.opp build/primordial.opp build/fourier.o build/transfer.opp build/harmonic.opp build/lensing.opp build/distortions.o build/wrap_recfast.o build/injection.o build/noninjection.o build/hyrectools.o build/helium.o build/hydrogen.o build/history.o build/wrap_hyrec.o build/energy_injection.o build/halofit.o build/hmcode.opp
+ar: creating libclass.a
+a - build/growTable.o
+a - build/dei_rkck.o
+a - build/sparse.o
+a - build/evolver_rkck.o
+a - build/evolver_ndf15.o
+a - build/arrays.opp
+a - build/parser.o
+a - build/quadrature.o
+a - build/hyperspherical.opp
+a - build/common.o
+a - build/trigonometric_integrals.o
+a - build/input.o
+a - build/background.o
+a - build/thermodynamics.o
+a - build/perturbations.opp
+a - build/primordial.opp
+a - build/fourier.o
+a - build/transfer.opp
+a - build/harmonic.opp
+a - build/lensing.opp
+a - build/distortions.o
+a - build/wrap_recfast.o
+a - build/injection.o
+a - build/noninjection.o
+a - build/hyrectools.o
+a - build/helium.o
+a - build/hydrogen.o
+a - build/history.o
+a - build/wrap_hyrec.o
+a - build/energy_injection.o
+a - build/halofit.o
+a - build/hmcode.opp

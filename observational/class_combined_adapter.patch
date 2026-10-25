@@ -1,0 +1,79 @@
+diff --git a/source/background.c b/source/background.c
+index 87d60c61..486573c9 100644
+--- a/source/background.c
++++ b/source/background.c
+@@ -2988,20 +2988,17 @@ double ddV_p_scf(
+ /** Fianlly we can obtain the overall potential \f$ V = V_p*V_e \f$
+  */
+ 
+-double V_scf(
+-             struct background *pba,
+-             double phi) {
+-  return  V_e_scf(pba,phi)*V_p_scf(pba,phi);
++double V_scf(struct background *pba, double phi) {
++  /* C1Q_PATCH_V1: x=phi/Mpl; potential units Mpc^-2; parameter[0]=m/H0. */
++  return 0.5 * pow(pba->scf_parameters[0]*pba->H0,2) * phi*phi;
+ }
+ 
+-double dV_scf(
+-              struct background *pba,
+-              double phi) {
+-  return dV_e_scf(pba,phi)*V_p_scf(pba,phi) + V_e_scf(pba,phi)*dV_p_scf(pba,phi);
++double dV_scf(struct background *pba, double phi) {
++  /* C1Q_PATCH_V1: x=phi/Mpl; potential units Mpc^-2; parameter[0]=m/H0. */
++  return pow(pba->scf_parameters[0]*pba->H0,2) * phi;
+ }
+ 
+-double ddV_scf(
+-               struct background *pba,
+-               double phi) {
+-  return ddV_e_scf(pba,phi)*V_p_scf(pba,phi) + 2*dV_e_scf(pba,phi)*dV_p_scf(pba,phi) + V_e_scf(pba,phi)*ddV_p_scf(pba,phi);
++double ddV_scf(struct background *pba, double phi) {
++  /* C1Q_PATCH_V1: x=phi/Mpl; potential units Mpc^-2; parameter[0]=m/H0. */
++  return pow(pba->scf_parameters[0]*pba->H0,2);
+ }
+diff --git a/source/input.c b/source/input.c
+index d01e7619..aa33b440 100644
+--- a/source/input.c
++++ b/source/input.c
+@@ -930,6 +930,28 @@ int input_find_root(double *xzero,
+              errmsg);
+ 
+   (*fevals)++;
++  /* C1Q_FAMILY_BRACKET_V1: numerical first-positive-root rule of
++     Cosmology/src/cosmology.py; no change to action or boundary condition. */
++  if (pfzw->target_name[0] == Omega_scf) {
++    double left = 0.0, right, fleft, fright;
++    int grid_index;
++    class_call(input_fzerofun_1d(left, pfzw, &fleft, errmsg), errmsg, errmsg);
++    (*fevals)++;
++    for (grid_index = 0; grid_index < 37; grid_index++) {
++      right = pow(10.0, -4.0 + 7.0 * grid_index / 36.0);
++      class_call(input_fzerofun_1d(right, pfzw, &fright, errmsg), errmsg, errmsg);
++      (*fevals)++;
++      if (fright == 0.0) { *xzero = right; return _SUCCESS_; }
++      if (fleft * fright < 0.0) {
++        class_call(input_fzero_ridder(input_fzerofun_1d, left, right,
++                     1.e-11, pfzw, &fleft, &fright, xzero, fevals, errmsg),
++                     errmsg, errmsg);
++        return _SUCCESS_;
++      }
++      left = right; fleft = fright;
++    }
++    class_stop(errmsg, "C1Q frozen positive-root grid has no sign-changing bracket");
++  }
+   dx = 1.5*f1*dxdy;
+   if(fabs(dx) < x1*_EPSILON_){
+     /* In this special case, we are very close to the correct location already
+@@ -3443,6 +3465,11 @@ int input_read_parameters_species(struct file_content * pfc,
+     /** 8.b.4) Shooting parameter */
+     /* Read */
+     class_read_double("scf_shooting_parameter",pba->scf_parameters[pba->scf_tuning_index]);
++    /* C1Q_PATCH_V1: refresh explicit initial conditions after shooting override. */
++    if (pba->attractor_ic_scf == _FALSE_) {
++      pba->phi_ini_scf = pba->scf_parameters[pba->scf_parameters_size-2];
++      pba->phi_prime_ini_scf = pba->scf_parameters[pba->scf_parameters_size-1];
++    }
+     /* Complete set of parameters */
+     scf_lambda = pba->scf_parameters[0];
+     if ((fabs(scf_lambda) < 3.)&&(pba->background_verbose>1)){

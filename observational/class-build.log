@@ -1,0 +1,99 @@
+if ! [ -e /workspace/scratch/2430b4425dc3/class-c1q/build ]; then mkdir /workspace/scratch/2430b4425dc3/class-c1q/build ; mkdir /workspace/scratch/2430b4425dc3/class-c1q/build/lib; fi;
+touch build/.base
+cd /workspace/scratch/2430b4425dc3/class-c1q/build;gcc -O3 -pthread  -g -fPIC -D__CLASSDIR__='"/workspace/scratch/2430b4425dc3/class-c1q"' -DHYREC -I../include -I../external/RecfastCLASS -I../external/heating -I../external/HyRec2020 -I../external/Halofit -I../external/HMcode -c ../tools/growTable.c -o growTable.o
+cd /workspace/scratch/2430b4425dc3/class-c1q/build;gcc -O3 -pthread  -g -fPIC -D__CLASSDIR__='"/workspace/scratch/2430b4425dc3/class-c1q"' -DHYREC -I../include -I../external/RecfastCLASS -I../external/heating -I../external/HyRec2020 -I../external/Halofit -I../external/HMcode -c ../tools/dei_rkck.c -o dei_rkck.o
+cd /workspace/scratch/2430b4425dc3/class-c1q/build;gcc -O3 -pthread  -g -fPIC -D__CLASSDIR__='"/workspace/scratch/2430b4425dc3/class-c1q"' -DHYREC -I../include -I../external/RecfastCLASS -I../external/heating -I../external/HyRec2020 -I../external/Halofit -I../external/HMcode -c ../tools/sparse.c -o sparse.o
+cd /workspace/scratch/2430b4425dc3/class-c1q/build;gcc -O3 -pthread  -g -fPIC -D__CLASSDIR__='"/workspace/scratch/2430b4425dc3/class-c1q"' -DHYREC -I../include -I../external/RecfastCLASS -I../external/heating -I../external/HyRec2020 -I../external/Halofit -I../external/HMcode -c ../tools/evolver_rkck.c -o evolver_rkck.o
+cd /workspace/scratch/2430b4425dc3/class-c1q/build;gcc -O3 -pthread  -g -fPIC -D__CLASSDIR__='"/workspace/scratch/2430b4425dc3/class-c1q"' -DHYREC -I../include -I../external/RecfastCLASS -I../external/heating -I../external/HyRec2020 -I../external/Halofit -I../external/HMcode -c ../tools/evolver_ndf15.c -o evolver_ndf15.o
+cd /workspace/scratch/2430b4425dc3/class-c1q/build;g++ --std=c++11 -fpermissive -Wno-write-strings -O3 -pthread  -g -fPIC -D__CLASSDIR__='"/workspace/scratch/2430b4425dc3/class-c1q"' -DHYREC -I../include -I../external/RecfastCLASS -I../external/heating -I../external/HyRec2020 -I../external/Halofit -I../external/HMcode -c ../tools/arrays.c -o arrays.opp
+cd /workspace/scratch/2430b4425dc3/class-c1q/build;gcc -O3 -pthread  -g -fPIC -D__CLASSDIR__='"/workspace/scratch/2430b4425dc3/class-c1q"' -DHYREC -I../include -I../external/RecfastCLASS -I../external/heating -I../external/HyRec2020 -I../external/Halofit -I../external/HMcode -c ../tools/parser.c -o parser.o
+cd /workspace/scratch/2430b4425dc3/class-c1q/build;gcc -O3 -pthread  -g -fPIC -D__CLASSDIR__='"/workspace/scratch/2430b4425dc3/class-c1q"' -DHYREC -I../include -I../external/RecfastCLASS -I../external/heating -I../external/HyRec2020 -I../external/Halofit -I../external/HMcode -c ../tools/quadrature.c -o quadrature.o
+cd /workspace/scratch/2430b4425dc3/class-c1q/build;g++ --std=c++11 -fpermissive -Wno-write-strings -O3 -pthread  -g -fPIC -D__CLASSDIR__='"/workspace/scratch/2430b4425dc3/class-c1q"' -DHYREC -I../include -I../external/RecfastCLASS -I../external/heating -I../external/HyRec2020 -I../external/Halofit -I../external/HMcode -c ../tools/hyperspherical.c -o hyperspherical.opp
+cd /workspace/scratch/2430b4425dc3/class-c1q/build;gcc -O3 -pthread  -g -fPIC -D__CLASSDIR__='"/workspace/scratch/2430b4425dc3/class-c1q"' -DHYREC -I../include -I../external/RecfastCLASS -I../external/heating -I../external/HyRec2020 -I../external/Halofit -I../external/HMcode -c ../tools/common.c -o common.o
+cd /workspace/scratch/2430b4425dc3/class-c1q/build;gcc -O3 -pthread  -g -fPIC -D__CLASSDIR__='"/workspace/scratch/2430b4425dc3/class-c1q"' -DHYREC -I../include -I../external/RecfastCLASS -I../external/heating -I../external/HyRec2020 -I../external/Halofit -I../external/HMcode -c ../tools/trigonometric_integrals.c -o trigonometric_integrals.o
+cd /workspace/scratch/2430b4425dc3/class-c1q/build;gcc -O3 -pthread  -g -fPIC -D__CLASSDIR__='"/workspace/scratch/2430b4425dc3/class-c1q"' -DHYREC -I../include -I../external/RecfastCLASS -I../external/heating -I../external/HyRec2020 -I../external/Halofit -I../external/HMcode -c ../source/input.c -o input.o
+cd /workspace/scratch/2430b4425dc3/class-c1q/build;gcc -O3 -pthread  -g -fPIC -D__CLASSDIR__='"/workspace/scratch/2430b4425dc3/class-c1q"' -DHYREC -I../include -I../external/RecfastCLASS -I../external/heating -I../external/HyRec2020 -I../external/Halofit -I../external/HMcode -c ../source/background.c -o background.o
+cd /workspace/scratch/2430b4425dc3/class-c1q/build;gcc -O3 -pthread  -g -fPIC -D__CLASSDIR__='"/workspace/scratch/2430b4425dc3/class-c1q"' -DHYREC -I../include -I../external/RecfastCLASS -I../external/heating -I../external/HyRec2020 -I../external/Halofit -I../external/HMcode -c ../source/thermodynamics.c -o thermodynamics.o
+cd /workspace/scratch/2430b4425dc3/class-c1q/build;g++ --std=c++11 -fpermissive -Wno-write-strings -O3 -pthread  -g -fPIC -D__CLASSDIR__='"/workspace/scratch/2430b4425dc3/class-c1q"' -DHYREC -I../include -I../external/RecfastCLASS -I../external/heating -I../external/HyRec2020 -I../external/Halofit -I../external/HMcode -c ../source/perturbations.c -o perturbations.opp
+cd /workspace/scratch/2430b4425dc3/class-c1q/build;g++ --std=c++11 -fpermissive -Wno-write-strings -O3 -pthread  -g -fPIC -D__CLASSDIR__='"/workspace/scratch/2430b4425dc3/class-c1q"' -DHYREC -I../include -I../external/RecfastCLASS -I../external/heating -I../external/HyRec2020 -I../external/Halofit -I../external/HMcode -c ../source/primordial.c -o primordial.opp
+cd /workspace/scratch/2430b4425dc3/class-c1q/build;gcc -O3 -pthread  -g -fPIC -D__CLASSDIR__='"/workspace/scratch/2430b4425dc3/class-c1q"' -DHYREC -I../include -I../external/RecfastCLASS -I../external/heating -I../external/HyRec2020 -I../external/Halofit -I../external/HMcode -c ../source/fourier.c -o fourier.o
+cd /workspace/scratch/2430b4425dc3/class-c1q/build;g++ --std=c++11 -fpermissive -Wno-write-strings -O3 -pthread  -g -fPIC -D__CLASSDIR__='"/workspace/scratch/2430b4425dc3/class-c1q"' -DHYREC -I../include -I../external/RecfastCLASS -I../external/heating -I../external/HyRec2020 -I../external/Halofit -I../external/HMcode -c ../source/transfer.c -o transfer.opp
+cd /workspace/scratch/2430b4425dc3/class-c1q/build;g++ --std=c++11 -fpermissive -Wno-write-strings -O3 -pthread  -g -fPIC -D__CLASSDIR__='"/workspace/scratch/2430b4425dc3/class-c1q"' -DHYREC -I../include -I../external/RecfastCLASS -I../external/heating -I../external/HyRec2020 -I../external/Halofit -I../external/HMcode -c ../source/harmonic.c -o harmonic.opp
+cd /workspace/scratch/2430b4425dc3/class-c1q/build;g++ --std=c++11 -fpermissive -Wno-write-strings -O3 -pthread  -g -fPIC -D__CLASSDIR__='"/workspace/scratch/2430b4425dc3/class-c1q"' -DHYREC -I../include -I../external/RecfastCLASS -I../external/heating -I../external/HyRec2020 -I../external/Halofit -I../external/HMcode -c ../source/lensing.c -o lensing.opp
+cd /workspace/scratch/2430b4425dc3/class-c1q/build;gcc -O3 -pthread  -g -fPIC -D__CLASSDIR__='"/workspace/scratch/2430b4425dc3/class-c1q"' -DHYREC -I../include -I../external/RecfastCLASS -I../external/heating -I../external/HyRec2020 -I../external/Halofit -I../external/HMcode -c ../source/distortions.c -o distortions.o
+cd /workspace/scratch/2430b4425dc3/class-c1q/build;gcc -O3 -pthread  -g -fPIC -D__CLASSDIR__='"/workspace/scratch/2430b4425dc3/class-c1q"' -DHYREC -I../include -I../external/RecfastCLASS -I../external/heating -I../external/HyRec2020 -I../external/Halofit -I../external/HMcode -c ../external/RecfastCLASS/wrap_recfast.c -o wrap_recfast.o
+cd /workspace/scratch/2430b4425dc3/class-c1q/build;gcc -O3 -pthread  -g -fPIC -D__CLASSDIR__='"/workspace/scratch/2430b4425dc3/class-c1q"' -DHYREC -I../include -I../external/RecfastCLASS -I../external/heating -I../external/HyRec2020 -I../external/Halofit -I../external/HMcode -c ../external/heating/injection.c -o injection.o
+In file included from ../include/arrays.h:8,
+                 from ../include/distortions.h:9,
+                 from ../source/distortions.c:13:
+../source/distortions.c: In function ‘distortions_output_sd_titles’:
+../source/distortions.c:1951:32: warning: ‘__builtin___snprintf_chk’ output may be truncated before the last format character [-Wformat-truncation=]
+ 1951 |       class_sprintf(temp_title,"SD[e_%i]",(index_type-psd->index_type_PCA));
+      |                                ^~~~~~~~~~
+../include/common.h:115:44: note: in definition of macro ‘class_sprintf’
+  115 |   snprintf(string, _buffer_size_sprintf+1, format);                                                                \
+      |                                            ^~~~~~
+../source/distortions.c:1951:41: note: format string is defined here
+ 1951 |       class_sprintf(temp_title,"SD[e_%i]",(index_type-psd->index_type_PCA));
+      |                                         ^
+In file included from /usr/include/stdio.h:980,
+                 from ../include/common.h:3:
+In function ‘snprintf’,
+    inlined from ‘distortions_output_sd_titles’ at ../source/distortions.c:1951:7:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:54:10: note: ‘__builtin___snprintf_chk’ output between 8 and 18 bytes into a destination of size 17
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+cd /workspace/scratch/2430b4425dc3/class-c1q/build;gcc -O3 -pthread  -g -fPIC -D__CLASSDIR__='"/workspace/scratch/2430b4425dc3/class-c1q"' -DHYREC -I../include -I../external/RecfastCLASS -I../external/heating -I../external/HyRec2020 -I../external/Halofit -I../external/HMcode -c ../external/heating/noninjection.c -o noninjection.o
+cd /workspace/scratch/2430b4425dc3/class-c1q/build;gcc -O3 -pthread  -g -fPIC -D__CLASSDIR__='"/workspace/scratch/2430b4425dc3/class-c1q"' -DHYREC -I../include -I../external/RecfastCLASS -I../external/heating -I../external/HyRec2020 -I../external/Halofit -I../external/HMcode -c ../external/HyRec2020/hyrectools.c -o hyrectools.o
+cd /workspace/scratch/2430b4425dc3/class-c1q/build;gcc -O3 -pthread  -g -fPIC -D__CLASSDIR__='"/workspace/scratch/2430b4425dc3/class-c1q"' -DHYREC -I../include -I../external/RecfastCLASS -I../external/heating -I../external/HyRec2020 -I../external/Halofit -I../external/HMcode -c ../external/HyRec2020/helium.c -o helium.o
+cd /workspace/scratch/2430b4425dc3/class-c1q/build;gcc -O3 -pthread  -g -fPIC -D__CLASSDIR__='"/workspace/scratch/2430b4425dc3/class-c1q"' -DHYREC -I../include -I../external/RecfastCLASS -I../external/heating -I../external/HyRec2020 -I../external/Halofit -I../external/HMcode -c ../external/HyRec2020/hydrogen.c -o hydrogen.o
+cd /workspace/scratch/2430b4425dc3/class-c1q/build;gcc -O3 -pthread  -g -fPIC -D__CLASSDIR__='"/workspace/scratch/2430b4425dc3/class-c1q"' -DHYREC -I../include -I../external/RecfastCLASS -I../external/heating -I../external/HyRec2020 -I../external/Halofit -I../external/HMcode -c ../external/HyRec2020/history.c -o history.o
+cd /workspace/scratch/2430b4425dc3/class-c1q/build;gcc -O3 -pthread  -g -fPIC -D__CLASSDIR__='"/workspace/scratch/2430b4425dc3/class-c1q"' -DHYREC -I../include -I../external/RecfastCLASS -I../external/heating -I../external/HyRec2020 -I../external/Halofit -I../external/HMcode -c ../external/HyRec2020/wrap_hyrec.c -o wrap_hyrec.o
+cd /workspace/scratch/2430b4425dc3/class-c1q/build;gcc -O3 -pthread  -g -fPIC -D__CLASSDIR__='"/workspace/scratch/2430b4425dc3/class-c1q"' -DHYREC -I../include -I../external/RecfastCLASS -I../external/heating -I../external/HyRec2020 -I../external/Halofit -I../external/HMcode -c ../external/HyRec2020/energy_injection.c -o energy_injection.o
+cd /workspace/scratch/2430b4425dc3/class-c1q/build;gcc -O3 -pthread  -g -fPIC -D__CLASSDIR__='"/workspace/scratch/2430b4425dc3/class-c1q"' -DHYREC -I../include -I../external/RecfastCLASS -I../external/heating -I../external/HyRec2020 -I../external/Halofit -I../external/HMcode -c ../external/Halofit/halofit.c -o halofit.o
+cd /workspace/scratch/2430b4425dc3/class-c1q/build;g++ --std=c++11 -fpermissive -Wno-write-strings -O3 -pthread  -g -fPIC -D__CLASSDIR__='"/workspace/scratch/2430b4425dc3/class-c1q"' -DHYREC -I../include -I../external/RecfastCLASS -I../external/heating -I../external/HyRec2020 -I../external/Halofit -I../external/HMcode -c ../external/HMcode/hmcode.c -o hmcode.opp
+cd /workspace/scratch/2430b4425dc3/class-c1q/build;gcc -O3 -pthread  -g -fPIC -D__CLASSDIR__='"/workspace/scratch/2430b4425dc3/class-c1q"' -DHYREC -I../include -I../external/RecfastCLASS -I../external/heating -I../external/HyRec2020 -I../external/Halofit -I../external/HMcode -c ../source/output.c -o output.o
+cd /workspace/scratch/2430b4425dc3/class-c1q/build;gcc -O3 -pthread  -g -fPIC -D__CLASSDIR__='"/workspace/scratch/2430b4425dc3/class-c1q"' -DHYREC -I../include -I../external/RecfastCLASS -I../external/heating -I../external/HyRec2020 -I../external/Halofit -I../external/HMcode -c ../main/class.c -o class.o
+g++ --std=c++11 -fpermissive -Wno-write-strings -O3 -pthread  -g -fPIC -o class build/growTable.o build/dei_rkck.o build/sparse.o build/evolver_rkck.o build/evolver_ndf15.o build/arrays.opp build/parser.o build/quadrature.o build/hyperspherical.opp build/common.o build/trigonometric_integrals.o build/input.o build/background.o build/thermodynamics.o build/perturbations.opp build/primordial.opp build/fourier.o build/transfer.opp build/harmonic.opp build/lensing.opp build/distortions.o build/wrap_recfast.o build/injection.o build/noninjection.o build/hyrectools.o build/helium.o build/hydrogen.o build/history.o build/wrap_hyrec.o build/energy_injection.o build/halofit.o build/hmcode.opp build/output.o build/class.o -lm
+/usr/bin/ld: build/transfer.opp: in function `transfer_radial_function':
+/workspace/scratch/2430b4425dc3/class-c1q/build/../source/transfer.c:4260:(.text+0xa9c3): undefined reference to `hyperspherical_Hermite6_interpolation_vector_dPhi'
+/usr/bin/ld: /workspace/scratch/2430b4425dc3/class-c1q/build/../source/transfer.c:4263:(.text+0xa9d6): undefined reference to `hyperspherical_Hermite6_interpolation_vector_PhidPhid2Phi'
+/usr/bin/ld: /workspace/scratch/2430b4425dc3/class-c1q/build/../source/transfer.c:4261:(.text+0xa9dd): undefined reference to `hyperspherical_Hermite6_interpolation_vector_PhidPhi'
+/usr/bin/ld: /workspace/scratch/2430b4425dc3/class-c1q/build/../source/transfer.c:4262:(.text+0xa9e8): undefined reference to `hyperspherical_Hermite6_interpolation_vector_Phid2Phi'
+/usr/bin/ld: /workspace/scratch/2430b4425dc3/class-c1q/build/../source/transfer.c:4259:(.text+0xa9ef): undefined reference to `hyperspherical_Hermite6_interpolation_vector_Phi'
+/usr/bin/ld: /workspace/scratch/2430b4425dc3/class-c1q/build/../source/transfer.c:4256:(.text+0xaae3): undefined reference to `hyperspherical_Hermite4_interpolation_vector_PhidPhid2Phi'
+/usr/bin/ld: /workspace/scratch/2430b4425dc3/class-c1q/build/../source/transfer.c:4254:(.text+0xaaea): undefined reference to `hyperspherical_Hermite4_interpolation_vector_PhidPhi'
+/usr/bin/ld: /workspace/scratch/2430b4425dc3/class-c1q/build/../source/transfer.c:4253:(.text+0xaaf9): undefined reference to `hyperspherical_Hermite4_interpolation_vector_dPhi'
+/usr/bin/ld: /workspace/scratch/2430b4425dc3/class-c1q/build/../source/transfer.c:4255:(.text+0xab00): undefined reference to `hyperspherical_Hermite4_interpolation_vector_Phid2Phi'
+/usr/bin/ld: /workspace/scratch/2430b4425dc3/class-c1q/build/../source/transfer.c:4252:(.text+0xab0b): undefined reference to `hyperspherical_Hermite4_interpolation_vector_Phi'
+/usr/bin/ld: /workspace/scratch/2430b4425dc3/class-c1q/build/../source/transfer.c:4202:(.text+0xc1ad): undefined reference to `hyperspherical_Hermite4_interpolation_vector_dPhi'
+/usr/bin/ld: /workspace/scratch/2430b4425dc3/class-c1q/build/../source/transfer.c:4202:(.text+0xc1b4): undefined reference to `hyperspherical_Hermite4_interpolation_vector_PhidPhid2Phi'
+/usr/bin/ld: /workspace/scratch/2430b4425dc3/class-c1q/build/../source/transfer.c:4202:(.text+0xc1bb): undefined reference to `hyperspherical_Hermite4_interpolation_vector_PhidPhi'
+/usr/bin/ld: /workspace/scratch/2430b4425dc3/class-c1q/build/../source/transfer.c:4202:(.text+0xc1c2): undefined reference to `hyperspherical_Hermite4_interpolation_vector_Phid2Phi'
+/usr/bin/ld: /workspace/scratch/2430b4425dc3/class-c1q/build/../source/transfer.c:4202:(.text+0xc1cd): undefined reference to `hyperspherical_Hermite4_interpolation_vector_Phi'
+/usr/bin/ld: /workspace/scratch/2430b4425dc3/class-c1q/build/../source/transfer.c:4305:(.text+0xc348): undefined reference to `hyperspherical_Hermite4_interpolation_vector_dPhi'
+/usr/bin/ld: /workspace/scratch/2430b4425dc3/class-c1q/build/../source/transfer.c:4305:(.text+0xc359): undefined reference to `hyperspherical_Hermite4_interpolation_vector_PhidPhid2Phi'
+/usr/bin/ld: /workspace/scratch/2430b4425dc3/class-c1q/build/../source/transfer.c:4305:(.text+0xc360): undefined reference to `hyperspherical_Hermite4_interpolation_vector_PhidPhi'
+/usr/bin/ld: /workspace/scratch/2430b4425dc3/class-c1q/build/../source/transfer.c:4305:(.text+0xc36b): undefined reference to `hyperspherical_Hermite4_interpolation_vector_Phid2Phi'
+/usr/bin/ld: /workspace/scratch/2430b4425dc3/class-c1q/build/../source/transfer.c:4305:(.text+0xc372): undefined reference to `hyperspherical_Hermite4_interpolation_vector_Phi'
+/usr/bin/ld: /workspace/scratch/2430b4425dc3/class-c1q/build/../source/transfer.c:4318:(.text+0xce3c): undefined reference to `hyperspherical_Hermite4_interpolation_vector_PhidPhid2Phi'
+/usr/bin/ld: /workspace/scratch/2430b4425dc3/class-c1q/build/../source/transfer.c:4318:(.text+0xce43): undefined reference to `hyperspherical_Hermite4_interpolation_vector_PhidPhi'
+/usr/bin/ld: /workspace/scratch/2430b4425dc3/class-c1q/build/../source/transfer.c:4318:(.text+0xce4a): undefined reference to `hyperspherical_Hermite4_interpolation_vector_Phid2Phi'
+/usr/bin/ld: /workspace/scratch/2430b4425dc3/class-c1q/build/../source/transfer.c:4318:(.text+0xce54): undefined reference to `hyperspherical_Hermite4_interpolation_vector_dPhi'
+/usr/bin/ld: /workspace/scratch/2430b4425dc3/class-c1q/build/../source/transfer.c:4318:(.text+0xce5f): undefined reference to `hyperspherical_Hermite4_interpolation_vector_Phi'
+/usr/bin/ld: build/transfer.opp: in function `transfer_workspace_free':
+/workspace/scratch/2430b4425dc3/class-c1q/build/../source/transfer.c:4687:(.text+0xf936): undefined reference to `hyperspherical_HIS_free'
+/usr/bin/ld: build/transfer.opp: in function `transfer_update_HIS':
+/workspace/scratch/2430b4425dc3/class-c1q/build/../source/transfer.c:4799:(.text+0xffd1): undefined reference to `hyperspherical_HIS_create'
+/usr/bin/ld: /workspace/scratch/2430b4425dc3/class-c1q/build/../source/transfer.c:4718:(.text+0x10003): undefined reference to `hyperspherical_HIS_free'
+/usr/bin/ld: /workspace/scratch/2430b4425dc3/class-c1q/build/../source/transfer.c:4763:(.text+0x10243): undefined reference to `hyperspherical_get_xmin_from_approx'
+/usr/bin/ld: /workspace/scratch/2430b4425dc3/class-c1q/build/../source/transfer.c:4778:(.text+0x102e3): undefined reference to `hyperspherical_get_xmin_from_Airy'
+/usr/bin/ld: build/transfer.opp: in function `transfer_init':
+/workspace/scratch/2430b4425dc3/class-c1q/build/../source/transfer.c:262:(.text+0x1314c): undefined reference to `hyperspherical_HIS_create'
+/usr/bin/ld: /workspace/scratch/2430b4425dc3/class-c1q/build/../source/transfer.c:399:(.text+0x13df3): undefined reference to `hyperspherical_HIS_free'
+collect2: error: ld returned 1 exit status
+make: *** [Makefile:177: class] Error 1

@@ -1,0 +1,1773 @@
+{
+  "passed": false,
+  "independent_seed": 20261027,
+  "n_direct_comparisons": 112,
+  "results": [
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.7375968016205657,
+        0.02312971769994422,
+        0.0859322645479804
+      ],
+      "error": null,
+      "max_distance_relative": 9.334640142633077e-06,
+      "max_hubble_relative": 9.149989356527222e-06,
+      "rd_relative": 3.222741491448744e-07,
+      "chi2_abs_error": 0.08831671768325577,
+      "direct_chi2": 1870.53313163432,
+      "passed": false
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.7375968016205657,
+        0.02312971769994422,
+        0.0859322645479804,
+        -0.5650146836656504
+      ],
+      "error": null,
+      "max_distance_relative": 9.334699903051913e-06,
+      "max_hubble_relative": 9.153565204922387e-06,
+      "rd_relative": 3.3914667141310417e-07,
+      "chi2_abs_error": 0.09241239513971777,
+      "direct_chi2": 1890.559273344314,
+      "passed": false
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.6521253534110893,
+        0.020982264294131327,
+        0.13354476436803406
+      ],
+      "error": null,
+      "max_distance_relative": 1.1496587983605977e-05,
+      "max_hubble_relative": 1.1292054497680226e-05,
+      "rd_relative": 1.0936987793197517e-07,
+      "chi2_abs_error": 0.06527750240388741,
+      "direct_chi2": 1527.7336500860308,
+      "passed": false
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.6521253534110893,
+        0.020982264294131327,
+        0.13354476436803406,
+        -0.3832625859707405
+      ],
+      "error": null,
+      "max_distance_relative": 1.1496714389824803e-05,
+      "max_hubble_relative": 1.1297682290134503e-05,
+      "rd_relative": 9.143244317222354e-08,
+      "chi2_abs_error": 0.05786190174012518,
+      "direct_chi2": 1512.818024099894,
+      "passed": false
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.7053987470630763,
+        0.024224573999564448,
+        0.08301343015269713
+      ],
+      "error": null,
+      "max_distance_relative": 1.691561084760096e-06,
+      "max_hubble_relative": 1.6581190864783935e-06,
+      "rd_relative": 1.8136351087605362e-08,
+      "chi2_abs_error": 0.004142515959301818,
+      "direct_chi2": 1594.204040753642,
+      "passed": true
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.7053987470630763,
+        0.024224573999564448,
+        0.08301343015269713,
+        -0.5119005822843447
+      ],
+      "error": null,
+      "max_distance_relative": 1.6915753708879322e-06,
+      "max_hubble_relative": 1.6589035668479468e-06,
+      "rd_relative": 2.9571757709234703e-08,
+      "chi2_abs_error": 0.00514099402107604,
+      "direct_chi2": 1598.8750212978086,
+      "passed": true
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.7363275307752244,
+        0.020520422133304045,
+        0.13025924854956555
+      ],
+      "error": null,
+      "max_distance_relative": 9.159303130390484e-06,
+      "max_hubble_relative": 8.990583423518217e-06,
+      "rd_relative": 1.560856075499828e-07,
+      "chi2_abs_error": 0.09779015839421845,
+      "direct_chi2": 1691.78608892915,
+      "passed": false
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.7363275307752244,
+        0.020520422133304045,
+        0.13025924854956555,
+        -1.1595186735017098
+      ],
+      "error": null,
+      "max_distance_relative": 9.159316826101715e-06,
+      "max_hubble_relative": 8.990748853077157e-06,
+      "rd_relative": 1.5184064117157448e-07,
+      "chi2_abs_error": 0.09803145668820434,
+      "direct_chi2": 1692.8090663234864,
+      "passed": false
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.7815210658507218,
+        0.020747002897446912,
+        0.10853559078102455
+      ],
+      "error": null,
+      "max_distance_relative": 6.7842635000925355e-06,
+      "max_hubble_relative": 6.653832280156813e-06,
+      "rd_relative": 8.499134507289341e-08,
+      "chi2_abs_error": 0.12436018212974886,
+      "direct_chi2": 2436.9863735015733,
+      "passed": false
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.7815210658507218,
+        0.020747002897446912,
+        0.10853559078102455,
+        -1.237779884753965
+      ],
+      "error": null,
+      "max_distance_relative": 6.784254066527495e-06,
+      "max_hubble_relative": 6.653942033474358e-06,
+      "rd_relative": 9.049958404894198e-08,
+      "chi2_abs_error": 0.12437519196100766,
+      "direct_chi2": 2438.6655822112625,
+      "passed": false
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.7950625338427344,
+        0.02195436326579492,
+        0.11972059519133682
+      ],
+      "error": null,
+      "max_distance_relative": 3.182443389482259e-06,
+      "max_hubble_relative": 3.1222956731191687e-06,
+      "rd_relative": 2.2055478465787814e-07,
+      "chi2_abs_error": 0.05446517182735988,
+      "direct_chi2": 2369.1757536502873,
+      "passed": false
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.7950625338427344,
+        0.02195436326579492,
+        0.11972059519133682,
+        -0.9431420728861057
+      ],
+      "error": null,
+      "max_distance_relative": 3.1824504276301013e-06,
+      "max_hubble_relative": 3.122484191986352e-06,
+      "rd_relative": 2.4102358286981485e-07,
+      "chi2_abs_error": 0.054270031204850966,
+      "direct_chi2": 2375.3030652878556,
+      "passed": false
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.7498058999447501,
+        0.02149409195843866,
+        0.10618975869258455
+      ],
+      "error": null,
+      "max_distance_relative": 1.0322984113741995e-05,
+      "max_hubble_relative": 1.0124868772942719e-05,
+      "rd_relative": 1.20378645274144e-07,
+      "chi2_abs_error": 0.1325777255185585,
+      "direct_chi2": 1920.9658784714,
+      "passed": false
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.7498058999447501,
+        0.02149409195843866,
+        0.10618975869258455,
+        0.3708831616876911
+      ],
+      "error": null,
+      "max_distance_relative": 1.032656935273657e-05,
+      "max_hubble_relative": 1.0296546459120925e-05,
+      "rd_relative": 6.270813524000829e-07,
+      "chi2_abs_error": 0.3601935182377929,
+      "direct_chi2": 5794.279638790983,
+      "passed": false
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.8076994154742487,
+        0.023061916386475135,
+        0.1594232103701761
+      ],
+      "error": null,
+      "max_distance_relative": 4.544573903864091e-07,
+      "max_hubble_relative": 4.4633451667941415e-07,
+      "rd_relative": 1.2512191749358692e-07,
+      "chi2_abs_error": 0.00972780165329823,
+      "direct_chi2": 2084.4854257535903,
+      "passed": true
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.8076994154742487,
+        0.023061916386475135,
+        0.1594232103701761,
+        -0.1333339589132534
+      ],
+      "error": null,
+      "max_distance_relative": 4.544696762254219e-07,
+      "max_hubble_relative": 4.472088916962491e-07,
+      "rd_relative": 1.4846196427775737e-07,
+      "chi2_abs_error": 0.011468811663235101,
+      "direct_chi2": 2281.648329908311,
+      "passed": false
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.6287547561366381,
+        0.022290821674806328,
+        0.0942423489030441
+      ],
+      "error": null,
+      "max_distance_relative": 1.0478688620807475e-05,
+      "max_hubble_relative": 1.0278466969992905e-05,
+      "rd_relative": 1.2579667274525974e-07,
+      "chi2_abs_error": 0.12283645846969193,
+      "direct_chi2": 1683.563696171269,
+      "passed": false
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.6287547561366381,
+        0.022290821674806328,
+        0.0942423489030441,
+        -0.4496429537786162
+      ],
+      "error": null,
+      "max_distance_relative": 1.0478799342017453e-05,
+      "max_hubble_relative": 1.0283355576179432e-05,
+      "rd_relative": 1.1921410014714695e-07,
+      "chi2_abs_error": 0.1159016227381926,
+      "direct_chi2": 1653.3515743342994,
+      "passed": false
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.6175788821912943,
+        0.022098450531964315,
+        0.08886452467738805
+      ],
+      "error": null,
+      "max_distance_relative": 8.005457242443725e-06,
+      "max_hubble_relative": 7.850967167932765e-06,
+      "rd_relative": 2.305634712040927e-07,
+      "chi2_abs_error": 0.11070446921803523,
+      "direct_chi2": 1796.907605635432,
+      "passed": false
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.6175788821912943,
+        0.022098450531964315,
+        0.08886452467738805,
+        -0.8721920344083398
+      ],
+      "error": null,
+      "max_distance_relative": 8.005480955586286e-06,
+      "max_hubble_relative": 7.851514051582242e-06,
+      "rd_relative": 2.3646623414919077e-07,
+      "chi2_abs_error": 0.10983659906037246,
+      "direct_chi2": 1791.5429248212329,
+      "passed": false
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.5523662845718796,
+        0.024310729356162266,
+        0.11623914110046452
+      ],
+      "error": null,
+      "max_distance_relative": 1.666666964217356e-06,
+      "max_hubble_relative": 1.6375085569730885e-06,
+      "rd_relative": 2.1830420904311865e-07,
+      "chi2_abs_error": 0.07117775173446717,
+      "direct_chi2": 3906.676302852745,
+      "passed": false
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.5523662845718796,
+        0.024310729356162266,
+        0.11623914110046452,
+        0.16975170921047655
+      ],
+      "error": null,
+      "max_distance_relative": 1.6668779323492089e-06,
+      "max_hubble_relative": 1.6454802508336641e-06,
+      "rd_relative": 1.6200280772427078e-07,
+      "chi2_abs_error": 0.054659379853092105,
+      "direct_chi2": 3133.447160013583,
+      "passed": false
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.6789684165000462,
+        0.020849691253287457,
+        0.14997871875052515
+      ],
+      "error": null,
+      "max_distance_relative": 6.432000918210612e-06,
+      "max_hubble_relative": 6.319780144981024e-06,
+      "rd_relative": 9.955733570876646e-09,
+      "chi2_abs_error": 0.005233529894212552,
+      "direct_chi2": 1477.0394574289485,
+      "passed": false
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.6789684165000462,
+        0.020849691253287457,
+        0.14997871875052515,
+        -0.6561944021254401
+      ],
+      "error": null,
+      "max_distance_relative": 6.432052576665903e-06,
+      "max_hubble_relative": 6.320645420609949e-06,
+      "rd_relative": 8.8497309480573e-09,
+      "chi2_abs_error": 0.004116960430337713,
+      "direct_chi2": 1476.1732956139317,
+      "passed": false
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.7608894098163969,
+        0.020255152153657675,
+        0.10389296607177344
+      ],
+      "error": null,
+      "max_distance_relative": 1.0064101487294863e-05,
+      "max_hubble_relative": 9.869526172545662e-06,
+      "rd_relative": 3.500313572324387e-08,
+      "chi2_abs_error": 0.16455822505804463,
+      "direct_chi2": 2225.011957685491,
+      "passed": false
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.7608894098163969,
+        0.020255152153657675,
+        0.10389296607177344,
+        0.2633968267293958
+      ],
+      "error": null,
+      "max_distance_relative": 1.0066492948990202e-05,
+      "max_hubble_relative": 9.99458823736088e-06,
+      "rd_relative": 3.5205475201749437e-07,
+      "chi2_abs_error": 0.31590625875014666,
+      "direct_chi2": 4600.110961288522,
+      "passed": false
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.5620913795752651,
+        0.021750270335456172,
+        0.1539106566040347
+      ],
+      "error": null,
+      "max_distance_relative": 5.58931817540298e-06,
+      "max_hubble_relative": 5.498835660588952e-06,
+      "rd_relative": 2.0508852405232147e-07,
+      "chi2_abs_error": 0.1753839717507617,
+      "direct_chi2": 3447.73915427909,
+      "passed": false
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.5620913795752651,
+        0.021750270335456172,
+        0.1539106566040347,
+        -1.0276767081539546
+      ],
+      "error": null,
+      "max_distance_relative": 5.589318997634152e-06,
+      "max_hubble_relative": 5.498918138058251e-06,
+      "rd_relative": 1.913056576485772e-07,
+      "chi2_abs_error": 0.17484422312281822,
+      "direct_chi2": 3445.8863024937154,
+      "passed": false
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.6868176075280008,
+        0.0247091331087067,
+        0.1405382156824928
+      ],
+      "error": null,
+      "max_distance_relative": 4.142166936116354e-06,
+      "max_hubble_relative": 4.068924553290998e-06,
+      "rd_relative": 6.089729209790562e-08,
+      "chi2_abs_error": 0.019278458502412832,
+      "direct_chi2": 1487.6928814357912,
+      "passed": false
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.6868176075280008,
+        0.0247091331087067,
+        0.1405382156824928,
+        -0.6790910963106214
+      ],
+      "error": null,
+      "max_distance_relative": 4.142186267763748e-06,
+      "max_hubble_relative": 4.069460602718067e-06,
+      "rd_relative": 7.788158207233664e-08,
+      "chi2_abs_error": 0.018615680459333817,
+      "direct_chi2": 1484.240161579735,
+      "passed": false
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.6927269954669507,
+        0.020202887009867047,
+        0.15030345551537108
+      ],
+      "error": null,
+      "max_distance_relative": 2.3062331339085418e-06,
+      "max_hubble_relative": 2.265739311946291e-06,
+      "rd_relative": 1.0012723083985264e-07,
+      "chi2_abs_error": 0.006036822502210271,
+      "direct_chi2": 1469.9944345364952,
+      "passed": false
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.6927269954669507,
+        0.020202887009867047,
+        0.15030345551537108,
+        -1.1814685971978582
+      ],
+      "error": null,
+      "max_distance_relative": 2.3062608595081358e-06,
+      "max_hubble_relative": 2.2657692673178076e-06,
+      "rd_relative": 1.135220828452077e-07,
+      "chi2_abs_error": 0.00603253309941465,
+      "direct_chi2": 1470.1393198216733,
+      "passed": false
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.6363345613443319,
+        0.024116583468457464,
+        0.12286448489266254
+      ],
+      "error": null,
+      "max_distance_relative": 1.1441646707521791e-05,
+      "max_hubble_relative": 1.1236294585659223e-05,
+      "rd_relative": 1.2317934827699162e-07,
+      "chi2_abs_error": 0.1620882472707308,
+      "direct_chi2": 1822.6094647296318,
+      "passed": false
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.6363345613443319,
+        0.024116583468457464,
+        0.12286448489266254,
+        -0.28463410648629583
+      ],
+      "error": null,
+      "max_distance_relative": 1.1441865020223041e-05,
+      "max_hubble_relative": 1.1245181858798858e-05,
+      "rd_relative": 1.4113592738951297e-07,
+      "chi2_abs_error": 0.1492724723655101,
+      "direct_chi2": 1766.9437134639104,
+      "passed": false
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.6586029821794809,
+        0.02264768966751279,
+        0.1437613338793785
+      ],
+      "error": null,
+      "max_distance_relative": 1.0796810079205521e-05,
+      "max_hubble_relative": 1.0608552951429928e-05,
+      "rd_relative": 2.527254416850866e-08,
+      "chi2_abs_error": 0.08041446942729635,
+      "direct_chi2": 1603.1338010634604,
+      "passed": false
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.6586029821794809,
+        0.02264768966751279,
+        0.1437613338793785,
+        0.16315836503180337
+      ],
+      "error": null,
+      "max_distance_relative": 1.0798227153885342e-05,
+      "max_hubble_relative": 1.0666978297990681e-05,
+      "rd_relative": 3.4532716686186404e-08,
+      "chi2_abs_error": 0.002921722840255825,
+      "direct_chi2": 1506.8183790795988,
+      "passed": false
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.6448000829206734,
+        0.023635452675754138,
+        0.09620293703793335
+      ],
+      "error": null,
+      "max_distance_relative": 1.1794623854255448e-05,
+      "max_hubble_relative": 1.1569917929277196e-05,
+      "rd_relative": 8.293072384368827e-08,
+      "chi2_abs_error": 0.12197730279990537,
+      "direct_chi2": 1621.7395513740103,
+      "passed": false
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.6448000829206734,
+        0.023635452675754138,
+        0.09620293703793335,
+        -0.2374008647767929
+      ],
+      "error": null,
+      "max_distance_relative": 1.1794920899643735e-05,
+      "max_hubble_relative": 1.1584647078066723e-05,
+      "rd_relative": 1.0124100735531272e-07,
+      "chi2_abs_error": 0.10052483209960883,
+      "direct_chi2": 1554.2661648587657,
+      "passed": false
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.7150317481258608,
+        0.023318619362116492,
+        0.11252913426468113
+      ],
+      "error": null,
+      "max_distance_relative": 4.534946975276455e-06,
+      "max_hubble_relative": 4.449699122499595e-06,
+      "rd_relative": 2.1966179386545548e-07,
+      "chi2_abs_error": 0.018393196148963398,
+      "direct_chi2": 1478.7711371412697,
+      "passed": false
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.7150317481258608,
+        0.023318619362116492,
+        0.11252913426468113,
+        -1.1067162780139035
+      ],
+      "error": null,
+      "max_distance_relative": 4.534956562496362e-06,
+      "max_hubble_relative": 4.4498095989053965e-06,
+      "rd_relative": 2.2022080981010106e-07,
+      "chi2_abs_error": 0.018525912842733305,
+      "direct_chi2": 1479.2437991649128,
+      "passed": false
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.5693750435228448,
+        0.02289045125621205,
+        0.08077731180343395
+      ],
+      "error": null,
+      "max_distance_relative": 6.122382411266614e-06,
+      "max_hubble_relative": 6.003602500137539e-06,
+      "rd_relative": 7.157835613114116e-08,
+      "chi2_abs_error": 0.18302275322321293,
+      "direct_chi2": 2885.596313385667,
+      "passed": false
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.5693750435228448,
+        0.02289045125621205,
+        0.08077731180343395,
+        -0.005975960779067702
+      ],
+      "error": null,
+      "max_distance_relative": 6.122813080100542e-06,
+      "max_hubble_relative": 6.023835085966489e-06,
+      "rd_relative": 4.122611629853168e-08,
+      "chi2_abs_error": 0.14831337887790141,
+      "direct_chi2": 2415.2392127504972,
+      "passed": false
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.5934964917227438,
+        0.021254191190962876,
+        0.11579477492526151
+      ],
+      "error": null,
+      "max_distance_relative": 1.584267765863956e-07,
+      "max_hubble_relative": 1.5556265120508783e-07,
+      "rd_relative": 7.420984582395818e-08,
+      "chi2_abs_error": 0.004607849371950579,
+      "direct_chi2": 2186.70914366761,
+      "passed": true
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.5934964917227438,
+        0.021254191190962876,
+        0.11579477492526151,
+        0.22829740719783498
+      ],
+      "error": null,
+      "max_distance_relative": 1.5844675660403595e-07,
+      "max_hubble_relative": 1.567193478324569e-07,
+      "rd_relative": 1.7597978629879663e-09,
+      "chi2_abs_error": 0.0013118434865191375,
+      "direct_chi2": 1655.8581549364671,
+      "passed": true
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.6076223274645312,
+        0.024513444719258985,
+        0.12165848229054577
+      ],
+      "error": null,
+      "max_distance_relative": 4.928138281901084e-06,
+      "max_hubble_relative": 4.840598244015837e-06,
+      "rd_relative": 1.8403270574118835e-07,
+      "chi2_abs_error": 0.10386302533197522,
+      "direct_chi2": 2352.433810296213,
+      "passed": false
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.6076223274645312,
+        0.024513444719258985,
+        0.12165848229054577,
+        0.4584645304579531
+      ],
+      "error": null,
+      "max_distance_relative": 4.931953588416249e-06,
+      "max_hubble_relative": 4.922832262499455e-06,
+      "rd_relative": 1.394456676795386e-07,
+      "chi2_abs_error": 0.047716010189787994,
+      "direct_chi2": 2003.7081577130919,
+      "passed": false
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.577180970429082,
+        0.02111572312871491,
+        0.08722975106240956
+      ],
+      "error": null,
+      "max_distance_relative": 5.12187986534407e-06,
+      "max_hubble_relative": 5.023489439759388e-06,
+      "rd_relative": 3.58155814561556e-07,
+      "chi2_abs_error": 0.1297617296477256,
+      "direct_chi2": 2393.522118238202,
+      "passed": false
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.577180970429082,
+        0.02111572312871491,
+        0.08722975106240956,
+        0.3124634100069863
+      ],
+      "error": null,
+      "max_distance_relative": 5.123264923412307e-06,
+      "max_hubble_relative": 5.085515451197509e-06,
+      "rd_relative": 1.2148174188819638e-07,
+      "chi2_abs_error": 0.011960365636696224,
+      "direct_chi2": 1522.2361389924938,
+      "passed": false
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.6726384247123974,
+        0.024930065360381372,
+        0.09233354697797674
+      ],
+      "error": null,
+      "max_distance_relative": 8.080491199824458e-06,
+      "max_hubble_relative": 7.92473646749059e-06,
+      "rd_relative": 9.889619034808561e-08,
+      "chi2_abs_error": 0.047275251842847865,
+      "direct_chi2": 1518.9510591470296,
+      "passed": false
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.6726384247123974,
+        0.024930065360381372,
+        0.09233354697797674,
+        0.3892372752656419
+      ],
+      "error": null,
+      "max_distance_relative": 8.083745985043578e-06,
+      "max_hubble_relative": 8.061479179310993e-06,
+      "rd_relative": 5.896619195144837e-07,
+      "chi2_abs_error": 0.2083829561370294,
+      "direct_chi2": 3118.2577837244007,
+      "passed": false
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.8376871937470338,
+        0.020016847824508285,
+        0.12499416110102773
+      ],
+      "error": null,
+      "max_distance_relative": 4.040369889213302e-06,
+      "max_hubble_relative": 3.963930091943624e-06,
+      "rd_relative": 1.2308107422143166e-07,
+      "chi2_abs_error": 0.10717737021059293,
+      "direct_chi2": 3369.444878364063,
+      "passed": false
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.8376871937470338,
+        0.020016847824508285,
+        0.12499416110102773,
+        -1.2879234779067463
+      ],
+      "error": null,
+      "max_distance_relative": 4.0403596758276095e-06,
+      "max_hubble_relative": 3.963982939447774e-06,
+      "rd_relative": 1.2014273709226586e-07,
+      "chi2_abs_error": 0.10715340005936014,
+      "direct_chi2": 3371.3672730470817,
+      "passed": false
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.6111948432013851,
+        0.023758399131275507,
+        0.10152875416624293
+      ],
+      "error": null,
+      "max_distance_relative": 6.108857718567506e-06,
+      "max_hubble_relative": 5.994986624235921e-06,
+      "rd_relative": 5.115296786151191e-08,
+      "chi2_abs_error": 0.11567482859845768,
+      "direct_chi2": 2081.0560631389644,
+      "passed": false
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.6111948432013851,
+        0.023758399131275507,
+        0.10152875416624293,
+        -0.7640348277568184
+      ],
+      "error": null,
+      "max_distance_relative": 6.108855862718698e-06,
+      "max_hubble_relative": 5.995572696093632e-06,
+      "rd_relative": 5.214847409451551e-08,
+      "chi2_abs_error": 0.11478042327780713,
+      "direct_chi2": 2071.4274952763963,
+      "passed": false
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.7145683633028979,
+        0.022390083816796285,
+        0.13864545550326648
+      ],
+      "error": null,
+      "max_distance_relative": 4.405685663622094e-06,
+      "max_hubble_relative": 4.326440781077245e-06,
+      "rd_relative": 5.5533559195630744e-08,
+      "chi2_abs_error": 0.01852591573265272,
+      "direct_chi2": 1455.4094916824101,
+      "passed": false
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.7145683633028979,
+        0.022390083816796285,
+        0.13864545550326648,
+        -0.9867516022801882
+      ],
+      "error": null,
+      "max_distance_relative": 4.4057187480461835e-06,
+      "max_hubble_relative": 4.326595619108531e-06,
+      "rd_relative": 4.01059510046764e-08,
+      "chi2_abs_error": 0.01865715604003526,
+      "direct_chi2": 1456.0821484156997,
+      "passed": false
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.8046992385551368,
+        0.020447118618266185,
+        0.15437963056916743
+      ],
+      "error": null,
+      "max_distance_relative": 3.870339768674569e-07,
+      "max_hubble_relative": 3.8003648517026534e-07,
+      "rd_relative": 1.0831050056836489e-08,
+      "chi2_abs_error": 0.007359702438861859,
+      "direct_chi2": 2373.793076390367,
+      "passed": true
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.8046992385551368,
+        0.020447118618266185,
+        0.15437963056916743,
+        -0.3309571727163072
+      ],
+      "error": null,
+      "max_distance_relative": 3.870279678963584e-07,
+      "max_hubble_relative": 3.8035210758735616e-07,
+      "rd_relative": 3.001995518836509e-08,
+      "chi2_abs_error": 0.00728878299560165,
+      "direct_chi2": 2466.110173579872,
+      "passed": true
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.66454421325619,
+        0.02394634423153627,
+        0.13523456698119102
+      ],
+      "error": null,
+      "max_distance_relative": 9.829381644399504e-06,
+      "max_hubble_relative": 9.655190651436385e-06,
+      "rd_relative": 1.2364635693096204e-07,
+      "chi2_abs_error": 0.07800288545990952,
+      "direct_chi2": 1576.7947056153296,
+      "passed": false
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.66454421325619,
+        0.02394634423153627,
+        0.13523456698119102,
+        -0.4634754084677061
+      ],
+      "error": null,
+      "max_distance_relative": 9.829467432775907e-06,
+      "max_hubble_relative": 9.658532303946643e-06,
+      "rd_relative": 1.2208571265048818e-07,
+      "chi2_abs_error": 0.07329969600368713,
+      "direct_chi2": 1562.4316616155422,
+      "passed": false
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.78943730201116,
+        0.02446854795054835,
+        0.1282766286941126
+      ],
+      "error": null,
+      "max_distance_relative": 4.765881121082671e-06,
+      "max_hubble_relative": 4.6773506091613015e-06,
+      "rd_relative": 1.9461542022369827e-07,
+      "chi2_abs_error": 0.06480225043583232,
+      "direct_chi2": 1946.962572210299,
+      "passed": false
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.78943730201116,
+        0.02446854795054835,
+        0.1282766286941126,
+        -0.1680168327254976
+      ],
+      "error": null,
+      "max_distance_relative": 4.766047843940413e-06,
+      "max_hubble_relative": 4.6863495728466376e-06,
+      "rd_relative": 2.1712502817905488e-07,
+      "chi2_abs_error": 0.07472800036657645,
+      "direct_chi2": 2113.0916055178054,
+      "passed": false
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.7592340837027524,
+        0.02218051279536094,
+        0.1450718773432514
+      ],
+      "error": null,
+      "max_distance_relative": 1.017359962962594e-05,
+      "max_hubble_relative": 9.989939578680662e-06,
+      "rd_relative": 1.2181169917191426e-07,
+      "chi2_abs_error": 0.11578747080443463,
+      "direct_chi2": 1718.9702644486981,
+      "passed": false
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.7592340837027524,
+        0.02218051279536094,
+        0.1450718773432514,
+        -1.0492956260086919
+      ],
+      "error": null,
+      "max_distance_relative": 1.0173618474107471e-05,
+      "max_hubble_relative": 9.990228540868173e-06,
+      "rd_relative": 1.2331625764971932e-07,
+      "chi2_abs_error": 0.1161082288574562,
+      "direct_chi2": 1720.6951906026088,
+      "passed": false
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.8489416833685384,
+        0.02115081491785672,
+        0.09111550699675008
+      ],
+      "error": null,
+      "max_distance_relative": 5.474674756866804e-07,
+      "max_hubble_relative": 5.366246731419722e-07,
+      "rd_relative": 1.0593841870409904e-07,
+      "chi2_abs_error": 0.018122108680472593,
+      "direct_chi2": 4111.300333570182,
+      "passed": false
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.8489416833685384,
+        0.02115081491785672,
+        0.09111550699675008,
+        -0.6054232719144015
+      ],
+      "error": null,
+      "max_distance_relative": 5.47472490675105e-07,
+      "max_hubble_relative": 5.368314464071489e-07,
+      "rd_relative": 1.1305706548725425e-07,
+      "chi2_abs_error": 0.018574104868093855,
+      "direct_chi2": 4173.50743142741,
+      "passed": false
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.8245669600449624,
+        0.023528985783418752,
+        0.14667804043270533
+      ],
+      "error": null,
+      "max_distance_relative": 4.043186487945327e-06,
+      "max_hubble_relative": 3.969436772610635e-06,
+      "rd_relative": 2.1529097127270802e-07,
+      "chi2_abs_error": 0.08141560343392484,
+      "direct_chi2": 2355.583531307361,
+      "passed": false
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.8245669600449624,
+        0.023528985783418752,
+        0.14667804043270533,
+        -0.8019063441748878
+      ],
+      "error": null,
+      "max_distance_relative": 4.043203037151777e-06,
+      "max_hubble_relative": 3.969845530304994e-06,
+      "rd_relative": 2.1390258297948606e-07,
+      "chi2_abs_error": 0.08186541218401544,
+      "direct_chi2": 2366.4528951618386,
+      "passed": false
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.7285040838087802,
+        0.02280044898068041,
+        0.10512659208256574
+      ],
+      "error": null,
+      "max_distance_relative": 7.804436207070609e-06,
+      "max_hubble_relative": 7.6552510912542e-06,
+      "rd_relative": 7.803431101294223e-08,
+      "chi2_abs_error": 0.06121306472505239,
+      "direct_chi2": 1621.1971184877375,
+      "passed": false
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.7285040838087802,
+        0.02280044898068041,
+        0.10512659208256574,
+        0.04973792040603775
+      ],
+      "error": null,
+      "max_distance_relative": 7.805188641629712e-06,
+      "max_hubble_relative": 7.694961417503698e-06,
+      "rd_relative": 1.8329011641782245e-08,
+      "chi2_abs_error": 0.1123732490536895,
+      "direct_chi2": 1963.9242407923593,
+      "passed": false
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.7697696655896471,
+        0.02151285732843491,
+        0.12641394257426197
+      ],
+      "error": null,
+      "max_distance_relative": 9.066195765905505e-06,
+      "max_hubble_relative": 8.897166089649744e-06,
+      "rd_relative": 3.2242958614148165e-07,
+      "chi2_abs_error": 0.13083296998820515,
+      "direct_chi2": 1993.831138843364,
+      "passed": false
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.7697696655896471,
+        0.02151285732843491,
+        0.12641394257426197,
+        -0.19810070083314546
+      ],
+      "error": null,
+      "max_distance_relative": 9.066482950847998e-06,
+      "max_hubble_relative": 8.911968457758768e-06,
+      "rd_relative": 3.51894737349312e-07,
+      "chi2_abs_error": 0.14698617139765702,
+      "direct_chi2": 2141.233052890034,
+      "passed": false
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.6011589204204518,
+        0.02171526878000057,
+        0.09936763081102476
+      ],
+      "error": null,
+      "max_distance_relative": 2.6425833044019242e-06,
+      "max_hubble_relative": 2.5930011176011902e-06,
+      "rd_relative": 2.1455678334003636e-07,
+      "chi2_abs_error": 0.04380048635584899,
+      "direct_chi2": 2017.811288014033,
+      "passed": false
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.6011589204204518,
+        0.02171526878000057,
+        0.09936763081102476,
+        -0.025288289972739575
+      ],
+      "error": null,
+      "max_distance_relative": 2.6427465256162463e-06,
+      "max_hubble_relative": 2.600468667068867e-06,
+      "rd_relative": 1.4950459092943902e-07,
+      "chi2_abs_error": 0.03431974243017066,
+      "direct_chi2": 1776.1006435617933,
+      "passed": false
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.8333987746309747,
+        0.022515330529557766,
+        0.1573645438587573
+      ],
+      "error": null,
+      "max_distance_relative": 4.434397701702508e-06,
+      "max_hubble_relative": 4.354392721950262e-06,
+      "rd_relative": 2.0191577454475862e-07,
+      "chi2_abs_error": 0.09623114401665589,
+      "direct_chi2": 2515.756538022577,
+      "passed": false
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.8333987746309747,
+        0.022515330529557766,
+        0.1573645438587573,
+        -0.831895142856754
+      ],
+      "error": null,
+      "max_distance_relative": 4.434413444109886e-06,
+      "max_hubble_relative": 4.354768617043092e-06,
+      "rd_relative": 1.9404917406262712e-07,
+      "chi2_abs_error": 0.09648692868813669,
+      "direct_chi2": 2525.6875584565087,
+      "passed": false
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.5857723358441551,
+        0.024785014596635402,
+        0.1108627810466734
+      ],
+      "error": null,
+      "max_distance_relative": 2.8128793447823597e-06,
+      "max_hubble_relative": 2.7621969240776423e-06,
+      "rd_relative": 1.0274680872779385e-07,
+      "chi2_abs_error": 0.0824269962508879,
+      "direct_chi2": 2851.424022895843,
+      "passed": false
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.5857723358441551,
+        0.024785014596635402,
+        0.1108627810466734,
+        0.0850048591152277
+      ],
+      "error": null,
+      "max_distance_relative": 2.813148914038166e-06,
+      "max_hubble_relative": 2.773054052385149e-06,
+      "rd_relative": 6.899760018885814e-08,
+      "chi2_abs_error": 0.0635115941404365,
+      "direct_chi2": 2355.0303088109986,
+      "passed": false
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.8133703774340028,
+        0.0234927212270568,
+        0.13626041307675413
+      ],
+      "error": null,
+      "max_distance_relative": 1.931964665136121e-06,
+      "max_hubble_relative": 1.8962870351746375e-06,
+      "rd_relative": 9.327863814689863e-08,
+      "chi2_abs_error": 0.03699179337354508,
+      "direct_chi2": 2293.0544927511723,
+      "passed": false
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.8133703774340028,
+        0.0234927212270568,
+        0.13626041307675413,
+        -0.07909773999040848
+      ],
+      "error": null,
+      "max_distance_relative": 1.932061868159529e-06,
+      "max_hubble_relative": 1.9017304855317718e-06,
+      "rd_relative": 1.2125980974886374e-07,
+      "chi2_abs_error": 0.04416962991763285,
+      "direct_chi2": 2628.352354835618,
+      "passed": false
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.55,
+        0.02,
+        0.08
+      ],
+      "error": null,
+      "max_distance_relative": 3.694122785447007e-11,
+      "max_hubble_relative": 1.5570322808855508e-10,
+      "rd_relative": 1.9055774258536218e-07,
+      "chi2_abs_error": 0.0059004679192184994,
+      "direct_chi2": 2928.537773908639,
+      "passed": true
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.55,
+        0.02,
+        0.08,
+        -1.3010299956639813
+      ],
+      "error": null,
+      "max_distance_relative": 3.6233460676271534e-11,
+      "max_hubble_relative": 1.550788386595059e-10,
+      "rd_relative": 1.9841827858524397e-07,
+      "chi2_abs_error": 0.006141050786482083,
+      "direct_chi2": 2927.2487158124172,
+      "passed": true
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.55,
+        0.02,
+        0.08
+      ],
+      "error": null,
+      "max_distance_relative": 3.694122785447007e-11,
+      "max_hubble_relative": 1.5570322808855508e-10,
+      "rd_relative": 1.9055774258536218e-07,
+      "chi2_abs_error": 0.0059004679192184994,
+      "direct_chi2": 2928.537773908639,
+      "passed": true
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.55,
+        0.02,
+        0.08,
+        0.4771212547196624
+      ],
+      "error": null,
+      "max_distance_relative": 5.917044632042234e-12,
+      "max_hubble_relative": 6.118883177919088e-12,
+      "rd_relative": 4.119554333215092e-07,
+      "chi2_abs_error": 0.005154280687747814,
+      "direct_chi2": 2201.698446045471,
+      "passed": true
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.55,
+        0.02,
+        0.16
+      ],
+      "error": null,
+      "max_distance_relative": 6.197264923457624e-12,
+      "max_hubble_relative": 3.7487790649493036e-12,
+      "rd_relative": 7.776515120738736e-08,
+      "chi2_abs_error": 0.002401433447630552,
+      "direct_chi2": 3586.629056502211,
+      "passed": true
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.55,
+        0.02,
+        0.16,
+        -1.3010299956639813
+      ],
+      "error": null,
+      "max_distance_relative": 2.761901818360002e-12,
+      "max_hubble_relative": 3.731792652672539e-12,
+      "rd_relative": 8.444041932342827e-08,
+      "chi2_abs_error": 0.0026071326697092445,
+      "direct_chi2": 3586.1789885909425,
+      "passed": true
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.55,
+        0.02,
+        0.16
+      ],
+      "error": null,
+      "max_distance_relative": 6.197264923457624e-12,
+      "max_hubble_relative": 3.7487790649493036e-12,
+      "rd_relative": 7.776515120738736e-08,
+      "chi2_abs_error": 0.002401433447630552,
+      "direct_chi2": 3586.629056502211,
+      "passed": true
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.55,
+        0.02,
+        0.16,
+        0.4771212547196624
+      ],
+      "error": null,
+      "max_distance_relative": 2.3077095789858504e-12,
+      "max_hubble_relative": 1.7497114868092467e-13,
+      "rd_relative": 5.861596230616328e-08,
+      "chi2_abs_error": 0.0005892108006264607,
+      "direct_chi2": 2414.1844889775684,
+      "passed": true
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.55,
+        0.025,
+        0.08
+      ],
+      "error": null,
+      "max_distance_relative": 1.4385603819278003e-11,
+      "max_hubble_relative": 6.40472119783908e-11,
+      "rd_relative": 1.7759291137675604e-07,
+      "chi2_abs_error": 0.007377470436040312,
+      "direct_chi2": 3993.007351253661,
+      "passed": true
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.55,
+        0.025,
+        0.08,
+        -1.3010299956639813
+      ],
+      "error": null,
+      "max_distance_relative": 1.4603651621314384e-11,
+      "max_hubble_relative": 6.378875205825807e-11,
+      "rd_relative": 1.7694407727919526e-07,
+      "chi2_abs_error": 0.0073479513130223495,
+      "direct_chi2": 3991.39925584485,
+      "passed": true
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.55,
+        0.025,
+        0.08
+      ],
+      "error": null,
+      "max_distance_relative": 1.4385603819278003e-11,
+      "max_hubble_relative": 6.40472119783908e-11,
+      "rd_relative": 1.7759291137675604e-07,
+      "chi2_abs_error": 0.007377470436040312,
+      "direct_chi2": 3993.007351253661,
+      "passed": true
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.55,
+        0.025,
+        0.08,
+        0.4771212547196624
+      ],
+      "error": null,
+      "max_distance_relative": 6.981082378842984e-13,
+      "max_hubble_relative": 2.7391422463551862e-12,
+      "rd_relative": 3.373779640103436e-07,
+      "chi2_abs_error": 0.001321840483797132,
+      "direct_chi2": 1890.8339730894966,
+      "passed": true
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.55,
+        0.025,
+        0.16
+      ],
+      "error": null,
+      "max_distance_relative": 2.26973995154367e-12,
+      "max_hubble_relative": 8.970602038971265e-14,
+      "rd_relative": 8.494775249889841e-08,
+      "chi2_abs_error": 0.0034876966001320397,
+      "direct_chi2": 4648.37114055132,
+      "passed": true
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.55,
+        0.025,
+        0.16,
+        -1.3010299956639813
+      ],
+      "error": null,
+      "max_distance_relative": 2.2145618672197998e-12,
+      "max_hubble_relative": 3.219646771412954e-15,
+      "rd_relative": 8.897830472420765e-08,
+      "chi2_abs_error": 0.0036527270267470158,
+      "direct_chi2": 4647.81444970616,
+      "passed": true
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.55,
+        0.025,
+        0.16
+      ],
+      "error": null,
+      "max_distance_relative": 2.26973995154367e-12,
+      "max_hubble_relative": 8.970602038971265e-14,
+      "rd_relative": 8.494775249889841e-08,
+      "chi2_abs_error": 0.0034876966001320397,
+      "direct_chi2": 4648.37114055132,
+      "passed": true
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.55,
+        0.025,
+        0.16,
+        0.4771212547196624
+      ],
+      "error": null,
+      "max_distance_relative": 3.54605234065275e-13,
+      "max_hubble_relative": 3.4416913763379853e-15,
+      "rd_relative": 3.269233128655458e-08,
+      "chi2_abs_error": 0.0006452451330005715,
+      "direct_chi2": 2931.4805875301513,
+      "passed": true
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.85,
+        0.02,
+        0.08
+      ],
+      "error": null,
+      "max_distance_relative": 4.0389913635863195e-13,
+      "max_hubble_relative": 9.918732502001149e-13,
+      "rd_relative": 2.9764380360397524e-07,
+      "chi2_abs_error": 0.009066412485481123,
+      "direct_chi2": 4695.381639277725,
+      "passed": true
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.85,
+        0.02,
+        0.08,
+        -1.3010299956639813
+      ],
+      "error": null,
+      "max_distance_relative": 5.323519403077626e-13,
+      "max_hubble_relative": 1.6253665080512292e-13,
+      "rd_relative": 3.010178704077049e-07,
+      "chi2_abs_error": 0.009174181868729647,
+      "direct_chi2": 4698.327704238466,
+      "passed": true
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.85,
+        0.02,
+        0.08
+      ],
+      "error": null,
+      "max_distance_relative": 4.0389913635863195e-13,
+      "max_hubble_relative": 9.918732502001149e-13,
+      "rd_relative": 2.9764380360397524e-07,
+      "chi2_abs_error": 0.009066412485481123,
+      "direct_chi2": 4695.381639277725,
+      "passed": true
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.85,
+        0.02,
+        0.08,
+        0.4771212547196624
+      ],
+      "error": null,
+      "max_distance_relative": 1.7927881401647028e-12,
+      "max_hubble_relative": 1.5654144647214707e-14,
+      "rd_relative": 2.115427977011919e-06,
+      "chi2_abs_error": 0.1250782390779932,
+      "direct_chi2": 18778.323053436197,
+      "passed": false
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.85,
+        0.02,
+        0.16
+      ],
+      "error": null,
+      "max_distance_relative": 4.2928882670878465e-11,
+      "max_hubble_relative": 1.841524710499698e-10,
+      "rd_relative": 1.495122639028068e-07,
+      "chi2_abs_error": 0.0039050690857038717,
+      "direct_chi2": 3135.4831202582955,
+      "passed": true
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.85,
+        0.02,
+        0.16,
+        -1.3010299956639813
+      ],
+      "error": null,
+      "max_distance_relative": 4.312472601242234e-11,
+      "max_hubble_relative": 1.8340728935584139e-10,
+      "rd_relative": 1.431789020678309e-07,
+      "chi2_abs_error": 0.0037411508692457573,
+      "direct_chi2": 3136.9465031011296,
+      "passed": true
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.85,
+        0.02,
+        0.16
+      ],
+      "error": null,
+      "max_distance_relative": 4.2928882670878465e-11,
+      "max_hubble_relative": 1.841524710499698e-10,
+      "rd_relative": 1.495122639028068e-07,
+      "chi2_abs_error": 0.0039050690857038717,
+      "direct_chi2": 3135.4831202582955,
+      "passed": true
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.85,
+        0.02,
+        0.16,
+        0.4771212547196624
+      ],
+      "error": null,
+      "max_distance_relative": 5.843547867812049e-12,
+      "max_hubble_relative": 7.334466367581172e-12,
+      "rd_relative": 8.015933923299912e-07,
+      "chi2_abs_error": 0.04136683334218105,
+      "direct_chi2": 11694.616531399592,
+      "passed": false
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.85,
+        0.025,
+        0.08
+      ],
+      "error": null,
+      "max_distance_relative": 1.5369261419095892e-11,
+      "max_hubble_relative": 6.730882518013459e-11,
+      "rd_relative": 2.5615056231664823e-07,
+      "chi2_abs_error": 0.006439932317334751,
+      "direct_chi2": 3726.6819360828304,
+      "passed": true
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.85,
+        0.025,
+        0.08,
+        -1.3010299956639813
+      ],
+      "error": null,
+      "max_distance_relative": 1.5426881994073938e-11,
+      "max_hubble_relative": 6.699663046561e-11,
+      "rd_relative": 2.697476420010503e-07,
+      "chi2_abs_error": 0.006786546593502862,
+      "direct_chi2": 3728.999291991313,
+      "passed": true
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.85,
+        0.025,
+        0.08
+      ],
+      "error": null,
+      "max_distance_relative": 1.5369261419095892e-11,
+      "max_hubble_relative": 6.730882518013459e-11,
+      "rd_relative": 2.5615056231664823e-07,
+      "chi2_abs_error": 0.006439932317334751,
+      "direct_chi2": 3726.6819360828304,
+      "passed": true
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.85,
+        0.025,
+        0.08,
+        0.4771212547196624
+      ],
+      "error": null,
+      "max_distance_relative": 1.7896795156957523e-12,
+      "max_hubble_relative": 3.47499806707674e-12,
+      "rd_relative": 1.8971893420705044e-06,
+      "chi2_abs_error": 0.10823473091295455,
+      "direct_chi2": 16489.589642118153,
+      "passed": false
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.85,
+        0.025,
+        0.16
+      ],
+      "error": null,
+      "max_distance_relative": 3.847044904858876e-11,
+      "max_hubble_relative": 1.6478662878682826e-10,
+      "rd_relative": 1.4259795899640437e-07,
+      "chi2_abs_error": 0.00293990159070745,
+      "direct_chi2": 2434.978684394815,
+      "passed": true
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.85,
+        0.025,
+        0.16,
+        -1.3010299956639813
+      ],
+      "error": null,
+      "max_distance_relative": 3.826172711995923e-11,
+      "max_hubble_relative": 1.6411938474902854e-10,
+      "rd_relative": 1.4115579038964654e-07,
+      "chi2_abs_error": 0.0029117340568518557,
+      "direct_chi2": 2436.0900324653044,
+      "passed": true
+    },
+    {
+      "kind": "lcdm",
+      "parameters": [
+        0.85,
+        0.025,
+        0.16
+      ],
+      "error": null,
+      "max_distance_relative": 3.847044904858876e-11,
+      "max_hubble_relative": 1.6478662878682826e-10,
+      "rd_relative": 1.4259795899640437e-07,
+      "chi2_abs_error": 0.00293990159070745,
+      "direct_chi2": 2434.978684394815,
+      "passed": true
+    },
+    {
+      "kind": "c1q",
+      "parameters": [
+        0.85,
+        0.025,
+        0.16,
+        0.4771212547196624
+      ],
+      "error": null,
+      "max_distance_relative": 2.3874235921539366e-12,
+      "max_hubble_relative": 7.1201933238285164e-12,
+      "rd_relative": 7.350768220781845e-07,
+      "chi2_abs_error": 0.035662370599311544,
+      "direct_chi2": 9992.931633698903,
+      "passed": false
+    }
+  ],
+  "reionization": [
+    {
+      "kind": "lcdm",
+      "z_reio": [
+        5.0,
+        7.7,
+        12.0
+      ],
+      "rd_values": [
+        147.08002962886908,
+        147.08182603343968,
+        147.08696612114863
+      ],
+      "max_relative": 4.716041337978334e-05
+    },
+    {
+      "kind": "c1q",
+      "z_reio": [
+        5.0,
+        7.7,
+        12.0
+      ],
+      "rd_values": [
+        147.08002383391738,
+        147.08181913759313,
+        147.08695824036806
+      ],
+      "max_relative": 4.7146234267177935e-05
+    }
+  ]
+}

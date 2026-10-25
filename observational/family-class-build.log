@@ -1,0 +1,35 @@
+cd /workspace/scratch/2430b4425dc3/class-c1q/build;gcc -O3 -pthread  -g -fPIC -D__CLASSDIR__='"/workspace/scratch/2430b4425dc3/class-c1q"' -DHYREC -I../include -I../external/RecfastCLASS -I../external/heating -I../external/HyRec2020 -I../external/Halofit -I../external/HMcode -c ../source/input.c -o input.o
+g++ --std=c++11 -fpermissive -Wno-write-strings -O3 -pthread  -g -fPIC -o class build/growTable.o build/dei_rkck.o build/sparse.o build/evolver_rkck.o build/evolver_ndf15.o build/arrays.opp build/parser.o build/quadrature.o build/hyperspherical.opp build/common.o build/trigonometric_integrals.o build/input.o build/background.o build/thermodynamics.o build/perturbations.opp build/primordial.opp build/fourier.o build/transfer.opp build/harmonic.opp build/lensing.opp build/distortions.o build/wrap_recfast.o build/injection.o build/noninjection.o build/hyrectools.o build/helium.o build/hydrogen.o build/history.o build/wrap_hyrec.o build/energy_injection.o build/halofit.o build/hmcode.opp build/output.o build/class.o -lm
+ar rv  libclass.a build/growTable.o build/dei_rkck.o build/sparse.o build/evolver_rkck.o build/evolver_ndf15.o build/arrays.opp build/parser.o build/quadrature.o build/hyperspherical.opp build/common.o build/trigonometric_integrals.o build/input.o build/background.o build/thermodynamics.o build/perturbations.opp build/primordial.opp build/fourier.o build/transfer.opp build/harmonic.opp build/lensing.opp build/distortions.o build/wrap_recfast.o build/injection.o build/noninjection.o build/hyrectools.o build/helium.o build/hydrogen.o build/history.o build/wrap_hyrec.o build/energy_injection.o build/halofit.o build/hmcode.opp
+r - build/growTable.o
+r - build/dei_rkck.o
+r - build/sparse.o
+r - build/evolver_rkck.o
+r - build/evolver_ndf15.o
+r - build/arrays.opp
+r - build/parser.o
+r - build/quadrature.o
+r - build/hyperspherical.opp
+r - build/common.o
+r - build/trigonometric_integrals.o
+r - build/input.o
+r - build/background.o
+r - build/thermodynamics.o
+r - build/perturbations.opp
+r - build/primordial.opp
+r - build/fourier.o
+r - build/transfer.opp
+r - build/harmonic.opp
+r - build/lensing.opp
+r - build/distortions.o
+r - build/wrap_recfast.o
+r - build/injection.o
+r - build/noninjection.o
+r - build/hyrectools.o
+r - build/helium.o
+r - build/hydrogen.o
+r - build/history.o
+r - build/wrap_hyrec.o
+r - build/energy_injection.o
+r - build/halofit.o
+r - build/hmcode.opp

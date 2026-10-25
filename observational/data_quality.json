@@ -1,0 +1,14 @@
+{
+  "bao_observables": 13,
+  "sn_rows_all": 1701,
+  "sn_rows_used": 1590,
+  "sn_unique_objects": 1473,
+  "selection": "zHD>0.01",
+  "sn_z_range": [
+    0.01016,
+    2.26137
+  ],
+  "covariance_cholesky_passed": true,
+  "nuisance": "one constant absolute magnitude, analytically profiled/marginalized",
+  "sigma_M_conditional": 0.003767000097754893
+}

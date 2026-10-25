@@ -1,0 +1,12 @@
+{
+  "cobaya_commit": "b76b6fed2a6c8c5594c6f92d5058bef10079746a",
+  "files": {
+    "planck_calib.yaml": "0e1a0bc0ad7ae18736f23ebce88d037cd1fb4e7648dffeaea2c2f65626477a14",
+    "params_TT.yaml": "ff0bf348f31809781b7b4e7b271962f566f66d78fe5383905b6e6e22bdaeda71",
+    "params_calib_temp.yaml": "d80e997504c146c5543da6ae57551369fca1de99ca85f22a867ef8af57d178e0",
+    "params_EE.yaml": "09851b5775a77388a96639690db2fdccf267cbb8f54e10301a2021eaf6299bd8",
+    "prior_SZ.yaml": "a829e1bfaa6259dc2ea0e03722e4a24062f2ee2bf5c0b370b9a5be21158e7a3f",
+    "params_calib_pol.yaml": "cce1092b1ceb152e1826ad1069278c7f46f9f4606cd5de75f2f86954ed16999f",
+    "params_TE.yaml": "663d136eaf00f3b740c55296c854d4f5666a6a28e2108eb11bc1d7c9a2bc4e64"
+  }
+}

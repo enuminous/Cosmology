@@ -1,0 +1,20 @@
+{
+  "all_passed": true,
+  "results": [
+    {
+      "kind": "lcdm",
+      "numpy_objective": 2784.7900050799817,
+      "jax_objective": 2784.790005079984,
+      "absolute_difference": 2.2737367544323206e-12,
+      "passed": true
+    },
+    {
+      "kind": "c1q",
+      "numpy_objective": 3696.6968480735263,
+      "jax_objective": 3696.6968480735295,
+      "absolute_difference": 3.183231456205249e-12,
+      "passed": true
+    }
+  ],
+  "source": "Extracted from complete printed evaluations after JSON serialization rejected numpy.bool_; no numerical rerun or change"
+}

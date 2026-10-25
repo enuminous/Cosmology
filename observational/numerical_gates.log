@@ -1,0 +1,69 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "flatness_boundary",
+      "value": 6.661338147750939e-16,
+      "limit": 1e-09,
+      "pass_": true,
+      "meaning": "Shooting boundary condition; not empirical evidence."
+    },
+    {
+      "name": "Raychaudhuri_from_finite_difference",
+      "value": 3.448463736788199e-11,
+      "limit": 2e-07,
+      "pass_": true,
+      "meaning": "Check independent acceleration equation from H(a)."
+    },
+    {
+      "name": "scalar_energy_continuity",
+      "value": 4.700104860856992e-12,
+      "limit": 1e-08,
+      "pass_": true,
+      "meaning": "rho_phi_N + 3(rho_phi+p_phi)=0."
+    },
+    {
+      "name": "thermal_neutrino_continuity",
+      "value": 1.0787410964496758e-09,
+      "limit": 2e-06,
+      "pass_": true,
+      "meaning": "Direct thermal integral is consistent with covariant continuity."
+    },
+    {
+      "name": "initial_radiation_dominance",
+      "value": 3.410283066662689e-05,
+      "limit": 0.0010000000000000009,
+      "pass_": true,
+      "meaning": "Chosen initial surface lies in radiation domination."
+    },
+    {
+      "name": "canonical_scalar_w_bounds",
+      "value": 0.0,
+      "limit": 1e-10,
+      "pass_": true,
+      "meaning": "Positive canonical kinetic and quadratic potential imply -1<=w<=1."
+    },
+    {
+      "name": "independent_variable_and_integrator",
+      "value": 7.120970479945754e-12,
+      "limit": 2e-08,
+      "pass_": true,
+      "meaning": "Radau on (phi,dphi/dln a) vs DOP853 on (phi,phi_dot)."
+    },
+    {
+      "name": "massless_neutrino_limit",
+      "value": 8.326672684688674e-15,
+      "limit": 1e-10,
+      "pass_": true,
+      "meaning": "FD density reproduces (7/8)(4/11)^(4/3) Neff rho_gamma."
+    },
+    {
+      "name": "resolution_and_quadrature_convergence",
+      "value": 8.881784197001252e-16,
+      "limit": 2e-06,
+      "pass_": true,
+      "meaning": "Re-shoot with tighter integration, interpolation, and thermal quadrature."
+    }
+  ],
+  "evidence_scope": "Internal numerical checks; not independent experimental validation or a Lean proof."
+}

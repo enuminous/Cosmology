@@ -1,0 +1,5 @@
+{
+  "precision_matrix_vs_cholesky_abs_error": 5.970650818198919e-08,
+  "constant_M_shift_invariance_abs_error": 1.1823431123048067e-11,
+  "passed": true
+}

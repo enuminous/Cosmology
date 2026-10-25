@@ -1,0 +1,14 @@
+{
+  "nearest_mock_index": 165,
+  "nearest_mock_T": 5.176588951338545,
+  "distance_from_observed_T": 0.3055388326756656,
+  "null_T_quantiles": {
+    "min": -0.03887411234472893,
+    "median": 0.023275755726785974,
+    "q90": 1.368158001990877,
+    "q95": 2.3784289997963453,
+    "q99": 5.17871617584872,
+    "max": 5.475203702080762
+  },
+  "scope": "Diagnostic separation from decision threshold; independent interpolation checks are finite tests, not a uniform error proof."
+}

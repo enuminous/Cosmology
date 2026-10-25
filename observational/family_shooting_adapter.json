@@ -1,0 +1,9 @@
+{
+  "base_commit": "814ce59c380a5cccd0bed1747a384ff7bfc1f9cf",
+  "prerequisite": "C1Q_PATCH_V1",
+  "before_sha256": "768cf8953679fabc543bee6b4af87af9b70833b00dcdd504cd2621799bd78841",
+  "after_sha256": "c52f6981cd065444d8988a4b386069b3173be4f108afb7bdc068cc135ec948c5",
+  "scope": "Numerical root selection only for Omega_scf; no physical change",
+  "grid": "0, 37 log-spaced values 1e-4 through 1000; first positive bracket",
+  "absolute_root_tolerance": 1e-11
+}

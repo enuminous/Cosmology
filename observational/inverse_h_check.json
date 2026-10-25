@@ -1,0 +1,12 @@
+[
+  {
+    "kind": "lcdm",
+    "max_dm_relative": 2.153011102734581e-11,
+    "max_h_relative": 9.832346048455065e-11
+  },
+  {
+    "kind": "c1q",
+    "max_dm_relative": 3.1097346919750635e-12,
+    "max_h_relative": 8.097300607801117e-12
+  }
+]

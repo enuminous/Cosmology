@@ -1,0 +1,20 @@
+----
+clipy_0.16
+Checking likelihood 'observational/data/planck/baseline/plc_3.0/hi_l/plik/plik_rd12_HM_v22b_TTTEEE.clik' on test data. got -1172.47 expected -1172.47 (diff 4.00569e-06)
+----
+READY hi_l/plik/plik_rd12_HM_v22b_TTTEEE.clik {'path': 'hi_l/plik/plik_rd12_HM_v22b_TTTEEE.clik', 'lmax': [2508, 2508, -1, 2508, -1, -1], 'parameters': ['A_cib_217', 'cib_index', 'xi_sz_cib', 'A_sz', 'ps_A_100_100', 'ps_A_143_143', 'ps_A_143_217', 'ps_A_217_217', 'ksz_norm', 'gal545_A_100', 'gal545_A_143', 'gal545_A_143_217', 'gal545_A_217', 'galf_EE_A_100', 'galf_EE_A_100_143', 'galf_EE_A_100_217', 'galf_EE_A_143', 'galf_EE_A_143_217', 'galf_EE_A_217', 'galf_EE_index', 'galf_TE_A_100', 'galf_TE_A_100_143', 'galf_TE_A_100_217', 'galf_TE_A_143', 'galf_TE_A_143_217', 'galf_TE_A_217', 'galf_TE_index', 'A_cnoise_e2e_100_100_EE', 'A_cnoise_e2e_143_143_EE', 'A_cnoise_e2e_217_217_EE', 'A_sbpx_100_100_TT', 'A_sbpx_143_143_TT', 'A_sbpx_143_217_TT', 'A_sbpx_217_217_TT', 'A_sbpx_100_100_EE', 'A_sbpx_100_143_EE', 'A_sbpx_100_217_EE', 'A_sbpx_143_143_EE', 'A_sbpx_143_217_EE', 'A_sbpx_217_217_EE', 'calib_100T', 'calib_217T', 'calib_100P', 'calib_143P', 'calib_217P', 'A_pol', 'A_planck'], 'test_loglike': -1172.4654180056907}
+----
+clipy_0.16
+Checking likelihood 'observational/data/planck/baseline/plc_3.0/low_l/commander/commander_dx12_v3_2_29.clik' on test data. got -11.6257 expected -11.6257 (diff 1.02746e-06)
+----
+READY low_l/commander/commander_dx12_v3_2_29.clik {'path': 'low_l/commander/commander_dx12_v3_2_29.clik', 'lmax': [29, -1, -1, -1, -1, -1], 'parameters': ['A_planck'], 'test_loglike': -11.62574085746067}
+----
+clipy_0.16
+Checking likelihood 'observational/data/planck/baseline/plc_3.0/low_l/simall/simall_100x143_offlike5_EE_Aplanck_B.clik' on test data. got -197.99 expected -197.99 (diff -4.1778e-08)
+----
+READY low_l/simall/simall_100x143_offlike5_EE_Aplanck_B.clik {'path': 'low_l/simall/simall_100x143_offlike5_EE_Aplanck_B.clik', 'lmax': [-1, 29, -1, -1, -1, -1], 'parameters': ['A_planck'], 'test_loglike': -197.98979215822206}
+----
+clipy_0.16
+Checking likelihood 'observational/data/planck/baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+----
+READY lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing {'path': 'lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing', 'lmax': [2500, 2500, 2500, -1, 2500, -1, -1], 'parameters': ['A_planck'], 'test_loglike': -4.421024272523798}

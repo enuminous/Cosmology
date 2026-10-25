@@ -1,0 +1,40 @@
+----
+clipy_0.16
+Checking likelihood '/workspace/scratch/2430b4425dc3/c1q-observational/observational/data/planck/baseline/plc_3.0/hi_l/plik/plik_rd12_HM_v22b_TTTEEE.clik' on test data. got -1172.47 expected -1172.47 (diff 4.00569e-06)
+----
+----
+clipy_0.16
+Checking likelihood '/workspace/scratch/2430b4425dc3/c1q-observational/observational/data/planck/baseline/plc_3.0/low_l/commander/commander_dx12_v3_2_29.clik' on test data. got -11.6257 expected -11.6257 (diff 1.02746e-06)
+----
+----
+clipy_0.16
+Checking likelihood '/workspace/scratch/2430b4425dc3/c1q-observational/observational/data/planck/baseline/plc_3.0/low_l/simall/simall_100x143_offlike5_EE_Aplanck_B.clik' on test data. got -197.99 expected -197.99 (diff -4.1778e-08)
+----
+----
+clipy_0.16
+Checking likelihood '/workspace/scratch/2430b4425dc3/c1q-observational/observational/data/planck/baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+----
+BACKEND_FINAL {'kind': 'lcdm', 'numpy_objective': np.float64(2784.7900050799817), 'jax_objective': 2784.790005079984, 'absolute_difference': np.float64(2.2737367544323206e-12), 'passed': np.True_}
+BACKEND_FINAL {'kind': 'c1q', 'numpy_objective': np.float64(3696.6968480735263), 'jax_objective': 3696.6968480735295, 'absolute_difference': np.float64(3.183231456205249e-12), 'passed': np.True_}
+Traceback (most recent call last):
+  File "<stdin>", line 10, in <module>
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type bool is not JSON serializable

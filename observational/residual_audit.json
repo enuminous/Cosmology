@@ -1,0 +1,92 @@
+{
+  "scope": "Residual diagnostics specified before family fits; calibrated on same null mocks.\n\nPrespecified summaries: maximum absolute BAO residual in marginal-sigma units;\nSN covariance-weighted ln(1+z) slope after removing a constant; maximum absolute\nstandardized GLS SN-bin offset for boundaries .01,.05,.1,.3,.6,infinity.\nThese are diagnostics with a LambdaCDM parametric reference, not independent\nvalidation or a proof that no systematic remains. No rejection threshold added.\n",
+  "SN_bin_edges": [
+    0.01,
+    0.05,
+    0.1,
+    0.3,
+    0.6,
+    "infinity"
+  ],
+  "n_mocks": 200,
+  "data": {
+    "lcdm": {
+      "max_abs_bao_marginal_sigma": 1.7432634304844539,
+      "abs_sn_log1pz_trend": 1.5168490964981267,
+      "max_abs_sn_bin_standardized_offset": 1.2638685092479747,
+      "sn_bin_offsets_mag": [
+        0.01064561935775329,
+        0.006408079041280854,
+        -0.008900905516417612,
+        -0.0016279158554277325,
+        -0.01565922103672859
+      ],
+      "sn_bin_conditional_standard_errors_mag": [
+        0.008423043441510883,
+        0.013947770179911398,
+        0.007398314308082505,
+        0.0085567734653067,
+        0.01733193491479454
+      ],
+      "bao_marginal_standardized_residuals": [
+        0.17759262253337776,
+        1.7432634304844539,
+        -1.436904259443422,
+        -0.5561080874328307,
+        -1.5756334296964627,
+        -0.8248657636846057,
+        1.0066125490853415,
+        -0.4842872487743618,
+        0.8211307881895481,
+        0.7473392185752192,
+        -0.007915337882613036,
+        0.3886010149645565,
+        0.32458261571952873
+      ],
+      "diagnostic_p_MC_under_matched_LCDM": {
+        "max_abs_bao_marginal_sigma": 0.5771144278606966,
+        "abs_sn_log1pz_trend": 0.09950248756218906,
+        "max_abs_sn_bin_standardized_offset": 0.572139303482587
+      }
+    },
+    "c1q": {
+      "max_abs_bao_marginal_sigma": 1.782807577046582,
+      "abs_sn_log1pz_trend": 0.17615714925754605,
+      "max_abs_sn_bin_standardized_offset": 1.0721380846972355,
+      "sn_bin_offsets_mag": [
+        -0.0002527080238683364,
+        -0.0011448152083623805,
+        -0.006150097672294952,
+        0.009174042714282052,
+        -0.0005702682279981072
+      ],
+      "sn_bin_conditional_standard_errors_mag": [
+        0.008423043441510883,
+        0.013947770179911398,
+        0.007398314308082505,
+        0.0085567734653067,
+        0.01733193491479454
+      ],
+      "bao_marginal_standardized_residuals": [
+        0.1460811534810893,
+        1.782807577046582,
+        -1.1434948688854831,
+        -0.40388326234980243,
+        -1.3307450917616002,
+        -0.5829807533710806,
+        1.1185305733803808,
+        -0.38234891761950435,
+        0.6159973538963818,
+        0.7789832640964527,
+        -0.128350597815186,
+        -0.4589176120644759,
+        0.24300768680828516
+      ],
+      "diagnostic_p_MC_under_matched_LCDM": {
+        "max_abs_bao_marginal_sigma": 0.5522388059701493,
+        "abs_sn_log1pz_trend": 0.7810945273631841,
+        "max_abs_sn_bin_standardized_offset": 0.6567164179104478
+      }
+    }
+  }
+}

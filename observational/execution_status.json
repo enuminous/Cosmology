@@ -1,0 +1,18 @@
+{
+  "training_execution_complete": true,
+  "original_freeze_identity_matches": true,
+  "implementation_lock_identity_matches": true,
+  "direct_fit_verification_passed": true,
+  "mock_count": 200,
+  "p_MC": 0.01990049751243781,
+  "training_screen_passed": false,
+  "posterior_convergence_checks": {
+    "lcdm": true,
+    "c1q": true
+  },
+  "conditional_fixed_point_Planck_diagnostic_complete": true,
+  "full_Planck_posterior_predictive_complete": false,
+  "future_independent_release_test_complete": false,
+  "full_protocol_signal_demonstrated": false,
+  "verdict": "C1Q improves the distance-data fit, but misses the predeclared 0.01 mock-calibration screening threshold. Full external predictive validation remains incomplete."
+}

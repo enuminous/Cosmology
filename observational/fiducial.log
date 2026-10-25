@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/2430b4425dc3/c1q-observational/observational/fiducial.py", line 37, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/scratch/2430b4425dc3/c1q-observational/observational/fiducial.py", line 21, in main
+    dm,h,rd,meta=prediction(l.z,kind)
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/2430b4425dc3/c1q-observational/observational/class_model.py", line 32, in prediction
+    c.set(p);c.compute(['thermodynamics'] if thermo else ['background'])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "python/classy.pyx", line 578, in classy._classy.Class.compute
+classy._classy.CosmoSevereError: 
+
+Error in Class: Class did not read input parameter(s): modes, ic, gauge
+

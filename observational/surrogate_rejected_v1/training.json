@@ -1,0 +1,29 @@
+{
+  "models": {
+    "lcdm": {
+      "shape": [
+        18,
+        5
+      ],
+      "max_training_compression_error": 1.89726012678193e-12,
+      "rank": 24
+    },
+    "c1q": {
+      "shape": [
+        18,
+        5,
+        24
+      ],
+      "max_training_compression_error": 6.997569190758668e-12,
+      "rank": 24
+    },
+    "rd": {
+      "shape": [
+        12,
+        14
+      ]
+    }
+  },
+  "elapsed_seconds": 646.4970972890005,
+  "observation_values_used": false
+}

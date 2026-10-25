@@ -1,0 +1,105 @@
+{
+  "id": "C1Q-OBS-STAGE1-2026-10-25-v1",
+  "source_model_commit": "f457a1fc414257d5e4d2ddbeb8985db2cb714363",
+  "protocol": "docs/TEST_PROTOCOL.md",
+  "stage": "acquisition_frozen_before_observational_files_downloaded",
+  "data_files": [
+    {
+      "key": "desi_dr2_mean",
+      "tree": "bao",
+      "repo": "CobayaSampler/bao_data",
+      "ref": "bb0c1c9009dc76d1391300e169e8df38fd1096db",
+      "path": "desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_mean.txt",
+      "expected_git_blob_sha1": "8aff444fdb42c0946342aa0011ab287eda097c4c",
+      "bytes": 472,
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/bb0c1c9009dc76d1391300e169e8df38fd1096db/desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_mean.txt",
+      "local_path": "data/desi_gaussian_bao_ALL_GCcomb_mean.txt"
+    },
+    {
+      "key": "desi_dr2_cov",
+      "tree": "bao",
+      "repo": "CobayaSampler/bao_data",
+      "ref": "bb0c1c9009dc76d1391300e169e8df38fd1096db",
+      "path": "desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_cov.txt",
+      "expected_git_blob_sha1": "fd8e5697ab61379b07b52efb781ea6713417a4d9",
+      "bytes": 2547,
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/bb0c1c9009dc76d1391300e169e8df38fd1096db/desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_cov.txt",
+      "local_path": "data/desi_gaussian_bao_ALL_GCcomb_cov.txt"
+    },
+    {
+      "key": "pantheon_data",
+      "tree": "pantheon",
+      "repo": "PantheonPlusSH0ES/DataRelease",
+      "ref": "c447f0fea703fcd0fff57de5000947b5ca81286b",
+      "path": "Pantheon+_Data/4_DISTANCES_AND_COVAR/Pantheon+SH0ES.dat",
+      "expected_git_blob_sha1": "cce857db0c15e9ce7a0e0ce77452b6ff62af969a",
+      "bytes": 579283,
+      "url": "https://raw.githubusercontent.com/PantheonPlusSH0ES/DataRelease/c447f0fea703fcd0fff57de5000947b5ca81286b/Pantheon+_Data/4_DISTANCES_AND_COVAR/Pantheon+SH0ES.dat",
+      "local_path": "data/Pantheon+SH0ES.dat"
+    },
+    {
+      "key": "pantheon_cov",
+      "tree": "pantheon",
+      "repo": "PantheonPlusSH0ES/DataRelease",
+      "ref": "c447f0fea703fcd0fff57de5000947b5ca81286b",
+      "path": "Pantheon+_Data/4_DISTANCES_AND_COVAR/Pantheon+SH0ES_STAT+SYS.cov",
+      "expected_git_blob_sha1": "d1a1498154e7ba826df14bdbef35ebcb7f5efba1",
+      "bytes": 33284960,
+      "url": "https://raw.githubusercontent.com/PantheonPlusSH0ES/DataRelease/c447f0fea703fcd0fff57de5000947b5ca81286b/Pantheon+_Data/4_DISTANCES_AND_COVAR/Pantheon+SH0ES_STAT+SYS.cov",
+      "local_path": "data/Pantheon+SH0ES_STAT+SYS.cov"
+    }
+  ],
+  "likelihood_reference": {
+    "repo": "CobayaSampler/cobaya",
+    "commit": "b76b6fed2a6c8c5594c6f92d5058bef10079746a",
+    "files": [
+      "cobaya/likelihoods/bao/desi_dr2/desi_bao_all.yaml",
+      "cobaya/likelihoods/sn/pantheonplus.py"
+    ],
+    "pantheon_original": "Pantheon+_Data/5_COSMOLOGY/cosmosis_likelihoods/Pantheon+_only_cosmosis_likelihood.py"
+  },
+  "likelihood_conventions": {
+    "bao": "joint multivariate Gaussian, released observables and full covariance; rd from the same physical model",
+    "pantheon": "zHD>0.01; m_b_corr; full STAT+SYS covariance submatrix; luminosity distance (1+zHEL)*DM(zHD); analytic marginalization of constant M with common flat improper prior; no SH0ES Cepheid distance calibration",
+    "joint": "block-independent released DESI BAO and SN likelihoods; common cross-survey covariance not supplied; this approximation must be declared"
+  },
+  "priors": {
+    "h": [
+      0.55,
+      0.85
+    ],
+    "omega_b": [
+      0.02,
+      0.025
+    ],
+    "omega_cdm": [
+      0.08,
+      0.16
+    ],
+    "log10_mu": [
+      -1.3010299956639813,
+      0.47712125471966244
+    ],
+    "logA": [
+      2.5,
+      3.5
+    ],
+    "n_s": [
+      0.9,
+      1.05
+    ],
+    "z_reio": [
+      5,
+      12
+    ]
+  },
+  "flat_directions": "logA,n_s,z_reio do not constrain homogeneous late-time distance likelihood; retain their independent uniform priors, do not claim measurement",
+  "calibration": {
+    "n_mocks": 200,
+    "seed": 20261016,
+    "statistic": "T=chi2_min_LCDM-chi2_min_C1Q",
+    "p_MC": "(1+count(T_mock>=T_data))/201",
+    "selection": "conditional on released redshifts and covariance, no new survey population simulation"
+  },
+  "implementation_gate": "No likelihood evaluation until all byte sizes/git blob hashes verified, SHA256 recorded, and implementation/optimization plan frozen. Emulator permitted only with independent direct-solver error validation; discrepancies and changes logged."
+}

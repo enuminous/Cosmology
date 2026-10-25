@@ -1,0 +1,2 @@
+PROGRESS training 0 direct CLASS calculations
+PROGRESS training complete {"lcdm": {"shape": [18, 5], "max_training_compression_error": 1.4489937028017152e-12, "rank": 24}, "c1q": {"shape": [18, 5, 24], "max_training_compression_error": 7.835013887680375e-12, "rank": 24}, "rd": {"shape": [12, 14]}}

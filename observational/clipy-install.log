@@ -1,0 +1,34 @@
+Processing /workspace/scratch/2430b4425dc3/clipy-c1q
+  Installing build dependencies: started
+  Installing build dependencies: still running...
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: numpy>=1.23.5 in /opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages (from clipy-like==0.16) (2.3.5)
+Collecting astropy>=2.0 (from clipy-like==0.16)
+  Downloading astropy-8.0.2-cp311-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (11 kB)
+Collecting astropy-iers-data>=0.2026.9.28.0.59.37 (from astropy>=2.0->clipy-like==0.16)
+  Downloading astropy_iers_data-0.2026.10.19.0.52.1-py3-none-any.whl.metadata (3.4 kB)
+Requirement already satisfied: packaging>=25.0 in /opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages (from astropy>=2.0->clipy-like==0.16) (26.3)
+Collecting pyerfa>=2.0.1.3 (from astropy>=2.0->clipy-like==0.16)
+  Downloading pyerfa-2.0.1.5-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (5.7 kB)
+Requirement already satisfied: PyYAML>=6.0.0 in /opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages (from astropy>=2.0->clipy-like==0.16) (6.0.3)
+Downloading astropy-8.0.2-cp311-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (10.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.4/10.4 MB 38.5 MB/s eta 0:00:00
+Downloading astropy_iers_data-0.2026.10.19.0.52.1-py3-none-any.whl (2.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.0/2.0 MB 20.6 MB/s eta 0:00:00
+Downloading pyerfa-2.0.1.5-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (738 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 738.7/738.7 kB 7.9 MB/s eta 0:00:00
+Building wheels for collected packages: clipy-like
+  Building wheel for clipy-like (pyproject.toml): started
+  Building wheel for clipy-like (pyproject.toml): finished with status 'done'
+  Created wheel for clipy-like: filename=clipy_like-0.16-py3-none-any.whl size=41022 sha256=fe1ec59d6e58e18dced933e0d466a8f5c2fd3522d44deccf7c3099b5c629a32a
+  Stored in directory: /root/.cache/pip/wheels/83/01/0c/f77faf648644315224e902f720a3d954b9b0bb8da35abf9f42
+Successfully built clipy-like
+Installing collected packages: pyerfa, astropy-iers-data, astropy, clipy-like
+Successfully installed astropy-8.0.2 astropy-iers-data-0.2026.10.19.0.52.1 clipy-like-0.16 pyerfa-2.0.1.5
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2.2
+[notice] To update, run: python -m pip install --upgrade pip

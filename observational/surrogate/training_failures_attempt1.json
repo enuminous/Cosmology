@@ -1,0 +1,1087 @@
+[
+  {
+    "kind": "lcdm",
+    "index": 0,
+    "error": "\n\nError in Class: background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998944e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "lcdm",
+    "index": 5,
+    "error": "\n\nError in Class: background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998951e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "lcdm",
+    "index": 10,
+    "error": "\n\nError in Class: background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998971e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 0,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998944e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 1,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998944e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 2,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998944e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 3,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998944e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 4,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998944e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 5,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998944e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 6,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998944e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 7,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998944e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 8,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998944e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 9,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998944e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 10,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998944e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 11,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998944e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 12,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998944e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 13,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998944e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 14,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998944e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 15,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998944e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 16,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998944e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 17,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998944e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 18,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998944e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 19,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998944e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 20,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998944e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 21,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998944e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 22,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998944e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 23,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998944e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 46,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 47,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 70,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 71,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 94,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 95,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 118,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 119,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 120,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998951e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 121,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998951e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 122,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998951e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 123,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998951e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 124,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998951e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 125,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998951e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 126,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998951e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 127,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998951e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 128,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998951e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 129,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998951e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 130,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998951e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 131,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998951e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 132,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998951e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 133,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998951e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 134,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998951e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 135,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998951e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 136,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998951e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 137,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998951e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 138,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998951e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 139,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998951e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 140,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998951e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 141,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998951e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 142,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998951e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 143,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998951e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 166,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 167,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 190,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 191,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 214,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 215,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 238,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 239,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 240,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998971e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 241,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998971e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 242,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998971e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 243,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998971e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 244,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998971e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 245,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998971e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 246,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998971e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 247,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998971e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 248,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998971e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 249,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998971e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 250,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998971e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 251,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998971e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 252,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998971e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 253,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998971e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 254,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998971e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 255,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998971e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 256,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998971e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 257,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998971e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 258,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998971e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 259,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998971e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 260,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998971e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 261,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998971e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 262,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998971e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 263,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:928) :error in input_fzerofun_1d(x1, pfzw, &f1, errmsg);\n=>input_fzerofun_1d(L:1003) :error in input_try_unknown_parameters(&input, 1, pfzw, output, error_message);\n=>input_try_unknown_parameters(L:1406) :error in background_init(&pr,&ba);\n=>background_init(L:835) :error in background_solve(ppr,pba);\n=>background_solve(L:1917) :error in background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini));\n=>background_initial_conditions(L:2302) :condition (fabs(pvecback[pba->index_bg_Omega_r]-1.) > ppr->tol_initial_Omega_r) is true; Omega_r = 9.998971e-01, not close enough to 1. Decrease a_ini_over_a_today_default in order to start from radiation domination."
+  },
+  {
+    "kind": "c1q",
+    "index": 286,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 287,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 310,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 311,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 334,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 335,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 358,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 359,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 382,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 383,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 406,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 407,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 430,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 431,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 454,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 455,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 478,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 479,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 502,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 503,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 526,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 527,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 550,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 551,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 574,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 575,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 598,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 599,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 622,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 623,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 646,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 647,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 670,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 671,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 694,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 695,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 718,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 719,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 742,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 743,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 766,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 767,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 790,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 791,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 814,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 815,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 838,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 839,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 862,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 863,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 886,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 887,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 910,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 911,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 934,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 935,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 958,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 959,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 982,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 983,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1006,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1007,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1030,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1031,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1054,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1055,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1078,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1079,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1102,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1103,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1126,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1127,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1150,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1151,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1174,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1175,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1198,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1199,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1222,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1223,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1246,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1247,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1270,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1271,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1294,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1295,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1318,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1319,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1343,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1367,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1390,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1391,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1414,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1415,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1438,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1439,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1463,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1487,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1511,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1535,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1559,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1583,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1607,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1631,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1655,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1679,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1703,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1727,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1751,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1775,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1799,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1823,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1847,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1871,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1895,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1919,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1943,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1967,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 1991,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 2015,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 2039,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 2063,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 2087,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 2111,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 2135,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  },
+  {
+    "kind": "c1q",
+    "index": 2159,
+    "error": "\n\nError in Class: background_init(L:819) :condition (pba->shooting_failed == _TRUE_) is true; Shooting failed, try optimising input_get_guess(). Error message:\n\ninput_shooting(L:653) :error in input_find_root(&xzero, &fevals, ppr->tol_shooting_deltax_rel, &fzw, errmsg);\n=>input_find_root(L:969) :error in input_fzero_ridder(input_fzerofun_1d, x1, x2, tol_x_rel*(((fabs(x1))<(fabs(x2))) ? (fabs(x2)) : (fabs(x1)) ), pfzw, &f1, &f2, xzero, fevals, errmsg);\n=>input_fzero_ridder(L:1124) :error; root must be bracketed in zriddr."
+  }
+]

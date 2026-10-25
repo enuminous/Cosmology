@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-25T14:18:22Z",
+  "revision": "numerical backend only; same Clipy likelihood and nuisance priors, same L-BFGS-B limits and starts; validate against NumPy before use",
+  "sha256": {
+    "planck_jax_profile.py": "9bee6487b199a9377b9982e171daf4be7cc9e7378ad37808ce3996314dbd29c4",
+    "planck_diagnostic.py": "0187d92cf5ea1a635e7b9d9afcb7296c48c1d2d68bf87667f53345dcba820459",
+    "planck_backend_validation_reference.json": "7b50ea11db055d476dde3176ce91e4f2ccb733bcf0e15661e514d7730d72b77e"
+  }
+}

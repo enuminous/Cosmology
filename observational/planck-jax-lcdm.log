@@ -1,0 +1,21 @@
+----
+clipy_0.16
+Checking likelihood '/workspace/scratch/2430b4425dc3/c1q-observational/observational/data/planck/baseline/plc_3.0/hi_l/plik/plik_rd12_HM_v22b_TTTEEE.clik' on test data. got -1172.47 expected -1172.47 (diff 4.00569e-06)
+----
+----
+clipy_0.16
+Checking likelihood '/workspace/scratch/2430b4425dc3/c1q-observational/observational/data/planck/baseline/plc_3.0/low_l/commander/commander_dx12_v3_2_29.clik' on test data. got -11.6257 expected -11.6257 (diff 1.02746e-06)
+----
+----
+clipy_0.16
+Checking likelihood '/workspace/scratch/2430b4425dc3/c1q-observational/observational/data/planck/baseline/plc_3.0/low_l/simall/simall_100x143_offlike5_EE_Aplanck_B.clik' on test data. got -197.99 expected -197.99 (diff -4.1778e-08)
+----
+----
+clipy_0.16
+Checking likelihood '/workspace/scratch/2430b4425dc3/c1q-observational/observational/data/planck/baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+----
+JAX_VALIDATION {'maximum_numpy_objective_difference': 2.546585164964199e-11, 'maximum_relative_scaled_gradient_error': 1.6181531653364223e-06, 'jax_64bit': True, 'passed': True}
+PLANCK_JAX_PROFILE lcdm 0 True 2784.7900212156474 435
+PLANCK_JAX_PROFILE lcdm 1 True 2784.790008435537 397
+PLANCK_JAX_PROFILE lcdm 2 True 2784.7900050799817 441
+PLANCK_JAX_DONE lcdm 2784.790005079984 True

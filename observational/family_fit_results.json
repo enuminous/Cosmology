@@ -1,0 +1,148 @@
+{
+  "fits": {
+    "lcdm": {
+      "kind": "lcdm",
+      "parameters": {
+        "h": 0.708763002527047,
+        "omega_b": 0.025,
+        "omega_cdm": 0.1270925248373992,
+        "z_reio": 8.028354070459255
+      },
+      "parameter_vector": [
+        0.708763002527047,
+        0.025,
+        0.1270925248373992,
+        8.028354070459255
+      ],
+      "objective_calls": 3380,
+      "elapsed_seconds": 0.7286952629947336,
+      "de_success": true,
+      "de_message": "Optimization terminated successfully.",
+      "local_runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "chi2": 1416.1695294281517,
+          "unit": [
+            0.5292046804071263,
+            1.0,
+            0.5886472432143872,
+            0.45816590367957793
+          ]
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "chi2": 1416.1695326089787,
+          "unit": [
+            0.5290812968994143,
+            0.9990940883710258,
+            0.588503850628771,
+            0.4687021792475944
+          ]
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "chi2": 1416.1695292937889,
+          "unit": [
+            0.5292099984234899,
+            1.0,
+            0.58865656046749,
+            0.43262201006560785
+          ]
+        }
+      ],
+      "restart_chi2_spread": 3.3151898151118075e-06,
+      "converged": true,
+      "chi2_bao": 10.883136883023955,
+      "chi2_sn": 1405.286392410761,
+      "chi2_total": 1416.169529293785,
+      "M_profile": -19.333269595150266,
+      "r_drag_Mpc": 142.52635038151976
+    },
+    "c1q": {
+      "kind": "c1q",
+      "parameters": {
+        "h": 0.6499900276002115,
+        "omega_b": 0.02,
+        "omega_cdm": 0.10736702766163347,
+        "z_reio": 9.389248724490718,
+        "log10_mu": -0.0662830471756457
+      },
+      "parameter_vector": [
+        0.6499900276002115,
+        0.02,
+        0.10736702766163347,
+        9.389248724490718,
+        -0.0662830471756457
+      ],
+      "objective_calls": 4566,
+      "elapsed_seconds": 1.2099175899929833,
+      "de_success": true,
+      "de_message": "Optimization terminated successfully.",
+      "local_runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "chi2": 1411.2984810729392,
+          "unit": [
+            0.33373900603871637,
+            0.0026807838774387488,
+            0.3425691960258431,
+            0.1761011538708828,
+            0.694398621030917
+          ]
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "chi2": 1411.2984833650037,
+          "unit": [
+            0.3342688365744173,
+            0.006862451447735711,
+            0.3430912350525776,
+            0.28633440125577286,
+            0.6943988930908722
+          ]
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "chi2": 1411.2984791751223,
+          "unit": [
+            0.3333000920007049,
+            0.0,
+            0.3420878457704184,
+            0.6270355220701026,
+            0.6943992802760359
+          ]
+        }
+      ],
+      "restart_chi2_spread": 4.189881337879342e-06,
+      "converged": true,
+      "chi2_bao": 8.74185172987164,
+      "chi2_sn": 1402.5566274452506,
+      "chi2_total": 1411.298479175122,
+      "M_profile": -19.50651242976879,
+      "r_drag_Mpc": 153.41495677729884
+    }
+  },
+  "T": 4.871050118662879,
+  "delta_AIC_C1Q_minus_LCDM": -2.871050118662879,
+  "all_fits_converged": true,
+  "scope": "Stage 1 DESI DR2 + Pantheon+, common full covariance and priors; no CMB used",
+  "mock_calibration": {
+    "n": 200,
+    "exceedances": 3,
+    "p_MC": 0.01990049751243781,
+    "binomial_95pct_interval_for_tail_probability": [
+      0.003104107621553509,
+      0.0432082819177126
+    ],
+    "resolution_floor": 0.004975124378109453,
+    "all_converged": true,
+    "failed_indices": [],
+    "passes_training_screen": false
+  }
+}

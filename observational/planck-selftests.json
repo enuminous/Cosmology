@@ -1,0 +1,109 @@
+[
+  {
+    "path": "hi_l/plik/plik_rd12_HM_v22b_TTTEEE.clik",
+    "lmax": [
+      2508,
+      2508,
+      -1,
+      2508,
+      -1,
+      -1
+    ],
+    "parameters": [
+      "A_cib_217",
+      "cib_index",
+      "xi_sz_cib",
+      "A_sz",
+      "ps_A_100_100",
+      "ps_A_143_143",
+      "ps_A_143_217",
+      "ps_A_217_217",
+      "ksz_norm",
+      "gal545_A_100",
+      "gal545_A_143",
+      "gal545_A_143_217",
+      "gal545_A_217",
+      "galf_EE_A_100",
+      "galf_EE_A_100_143",
+      "galf_EE_A_100_217",
+      "galf_EE_A_143",
+      "galf_EE_A_143_217",
+      "galf_EE_A_217",
+      "galf_EE_index",
+      "galf_TE_A_100",
+      "galf_TE_A_100_143",
+      "galf_TE_A_100_217",
+      "galf_TE_A_143",
+      "galf_TE_A_143_217",
+      "galf_TE_A_217",
+      "galf_TE_index",
+      "A_cnoise_e2e_100_100_EE",
+      "A_cnoise_e2e_143_143_EE",
+      "A_cnoise_e2e_217_217_EE",
+      "A_sbpx_100_100_TT",
+      "A_sbpx_143_143_TT",
+      "A_sbpx_143_217_TT",
+      "A_sbpx_217_217_TT",
+      "A_sbpx_100_100_EE",
+      "A_sbpx_100_143_EE",
+      "A_sbpx_100_217_EE",
+      "A_sbpx_143_143_EE",
+      "A_sbpx_143_217_EE",
+      "A_sbpx_217_217_EE",
+      "calib_100T",
+      "calib_217T",
+      "calib_100P",
+      "calib_143P",
+      "calib_217P",
+      "A_pol",
+      "A_planck"
+    ],
+    "test_loglike": -1172.4654180056907
+  },
+  {
+    "path": "low_l/commander/commander_dx12_v3_2_29.clik",
+    "lmax": [
+      29,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "parameters": [
+      "A_planck"
+    ],
+    "test_loglike": -11.62574085746067
+  },
+  {
+    "path": "low_l/simall/simall_100x143_offlike5_EE_Aplanck_B.clik",
+    "lmax": [
+      -1,
+      29,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "parameters": [
+      "A_planck"
+    ],
+    "test_loglike": -197.98979215822206
+  },
+  {
+    "path": "lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing",
+    "lmax": [
+      2500,
+      2500,
+      2500,
+      -1,
+      2500,
+      -1,
+      -1
+    ],
+    "parameters": [
+      "A_planck"
+    ],
+    "test_loglike": -4.421024272523798
+  }
+]

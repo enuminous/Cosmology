@@ -1,0 +1,9 @@
+# Conditional Planck point diagnostic
+
+Declared before evaluating model spectra in the Planck likelihood. This is an additional diagnostic, not the Stage-2 posterior-predictive integral required by the original protocol.
+
+Evaluate the immutable C1Q and matched LambdaCDM configurations. Keep all cosmological inputs fixed, including A_s=2.1e-9, n_s=0.965 and z_reio=7.7. Use synchronous gauge, the pinned scalar adapter and the original linear-theory prescription. Extend l_max_scalars to 3000 to cover the full public Planck 2018 TT/TE/EE, low-TT, low-EE and lensing likelihoods. Compare the original numerical profile with its documented tighter profile before interpreting a likelihood difference.
+
+Use the common Planck nuisance prescription in the pinned Cobaya reference files, including fixed polarization calibration/EE dust, sampled TT/TE foregrounds, calibration priors and the joint SZ prior. Profile the free nuisance parameters identically for both fixed cosmologies, using three deterministic starts and the same limits. Report individual likelihood terms and the explicit nuisance-prior penalty. This is a conditional maximum-posterior nuisance diagnostic, not a marginalized evidence or discovery statistic. Keep numerical differences, optimizer failures and all unfavorable results.
+
+The full Stage-2 requirement remains an integration over each frozen Stage-1 cosmological posterior and common nuisance priors, including the primordial/reionization parameters that Stage 1 does not measure. A profile at one point cannot substitute for that integration. Planck is an already known complementary dataset; no blind validation or new-data discovery is claimed. The original linear-theory prescription also needs a separate assessment of nonlinear-lensing corrections for precision inference.

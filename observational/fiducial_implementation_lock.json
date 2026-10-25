@@ -1,0 +1,11 @@
+{
+  "scope": "before first immutable-point likelihood evaluation",
+  "files": {
+    "EXECUTION_PLAN.md": "0a32ba97cd575e09f325ac793b41383e76c20835946ae406842b8fa09356b3d3",
+    "likelihood.py": "347f8c6641e31965ece00a192dbed16dae09d624c90ed46b03cd16014127ddc4",
+    "class_model.py": "fd12cd5cd9786c2a32df533f5f80a2c7b9e89092249ae5cec76d00eb9e713731",
+    "fiducial.py": "51036c8b28599d4ee18265064e186b5919e91218d567558ee0ebcf880adc92a0",
+    "data_manifest.json": "b6353864ba5c1ad07896ce20a7469e387415e9c9a2ba2bfa82c6d1174208eddd"
+  },
+  "utc": "2026-10-25T13:56:39Z"
+}

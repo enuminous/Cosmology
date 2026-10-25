@@ -1,0 +1,6 @@
+{
+  "maximum_numpy_objective_difference": 2.546585164964199e-11,
+  "maximum_relative_scaled_gradient_error": 1.6181531653364223e-06,
+  "jax_64bit": true,
+  "passed": true
+}

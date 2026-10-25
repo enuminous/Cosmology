@@ -1,0 +1,15 @@
+START validate_surrogate.py
+COMPLETE validate_surrogate.py
+START fit_stage1.py --no-mocks
+COMPLETE fit_stage1.py --no-mocks
+START verify_fit.py
+COMPLETE verify_fit.py
+START fit_stage1.py --mocks-only
+START posterior.py lcdm
+START posterior.py c1q
+COMPLETE mocks and posteriors
+START residual_audit.py
+COMPLETE residual_audit.py
+START make_report.py
+COMPLETE make_report.py
+PIPELINE_COMPLETE

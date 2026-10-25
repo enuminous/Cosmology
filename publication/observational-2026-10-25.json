@@ -1,0 +1,28 @@
+{
+  "run": "C1Q-OBS-2026-10-25",
+  "source_model_commit": "f457a1fc414257d5e4d2ddbeb8985db2cb714363",
+  "original_run_archive": {
+    "name": "C1Q-observational-execution-2026-10-25.zip",
+    "bytes": 27254927,
+    "sha256": "04400762fba3058cd872f04d38d513a1427ab126b43c75bde28deab1d98696f6",
+    "note": "Identity of the originally delivered ZIP; this repository publishes its complete logical contents, with the large covariance stored as gzip."
+  },
+  "artifact_manifest": {
+    "path": "observational/ARTIFACT_MANIFEST.json",
+    "bytes": 22400,
+    "sha256": "529adf5120bc404941c03652b9dc6b2154a338d5ffd4d169fa17dfb039f3faae",
+    "listed_files": 153
+  },
+  "compressed_files": {
+    "data/Pantheon+SH0ES_STAT+SYS.cov": {
+      "path": "data/Pantheon+SH0ES_STAT+SYS.cov.gz",
+      "bytes": 10085863,
+      "sha256": "0f8e9e4352e9d505b4526c7c3f9a090bb088efc0dfb4f63653602031b8529124",
+      "format": "gzip",
+      "reason": "Lossless repository transport; decompressed content is checked against the original run manifest."
+    }
+  },
+  "verification_scope": "Byte identity and consistency of saved results. The publication check does not repeat inference or independently validate the physical model.",
+  "training_screen_passed": false,
+  "full_protocol_signal_demonstrated": false
+}
