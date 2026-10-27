@@ -1,5 +1,30 @@
 # EFMW-COSMO-C1Q v1.0.0
 
+<!-- ENUMINOUS-UNIFIED-NAV:START -->
+## Repository navigation
+
+**eNuminous network:** [All public repositories](https://github.com/enuminous/EFMW/blob/main/REPOSITORY_NAVIGATION.md) · [EFMW](https://github.com/enuminous/EFMW) · [102 equations](https://github.com/enuminous/Monolithic_102_EFMW) · [Frozen Lean](https://github.com/enuminous/Monolithic-102-Zoo-Lean4) · [Zoo](https://github.com/enuminous/Tortoise) · [Papers](https://github.com/enuminous/papers) · [Quantum geometry](https://github.com/enuminous/Base888-Quantum-Geometry)
+
+**This project:** [Repository home](https://github.com/enuminous/Cosmology) · [Subject index](https://github.com/enuminous/EFMW/blob/main/REPOSITORY_NAVIGATION.md#fundamental-physics-cosmology-and-quantum-geometry)
+
+<details open>
+<summary><strong>On this page</strong></summary>
+
+- [Read first](#read-first)
+- [Reference predictions](#reference-predictions)
+- [Reproduce the background](#reproduce-the-background)
+- [Reproduce CLASS and the figures](#reproduce-class-and-the-figures)
+- [Freeze and revision rule](#freeze-and-revision-rule)
+
+
+</details>
+
+**Related repositories:** [Oroboros](https://github.com/enuminous/Oroboros) · [FieldSpace](https://github.com/enuminous/FieldSpace) · [EFMW-Lagrangian](https://github.com/enuminous/EFMW-Lagrangian) · [Quantum-Gravity](https://github.com/enuminous/Quantum-Gravity) · [papers](https://github.com/enuminous/papers) · [QST](https://github.com/enuminous/QST) · [Cat-Physics](https://github.com/enuminous/Cat-Physics) · [EFMW](https://github.com/enuminous/EFMW)
+
+> **Evidence boundary:** A link between projects is navigation, not an assertion of proven equivalence, experimental validation, or shared authorship. See each repository’s own status and review notes.
+<!-- ENUMINOUS-UNIFIED-NAV:END -->
+
+
 Frozen 16 October 2026 (Pacific) for Matthew Chenoweth Wright.
 
 This package specifies and executes a **post-BBN cosmological candidate**: spatially flat general relativity, one canonical scalar with V(phi)=m^2 phi^2/2, ordinary photons and baryons, cold dark matter, and three thermal neutrino species. Lambda and direct scalar-matter couplings are zero. The reference chooses m/H0=1 and fixes all inputs, initial data and numerical conventions. The active physics is established quadratic quintessence; this branch does not establish a new physical law or validate EFMW experimentally.
